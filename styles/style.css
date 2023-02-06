@@ -1,3 +1,78 @@
+/* Header styles */
+body {
+    margin: 0;
+}
+
 header {
-    font-family: 'Intel';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+.header-container {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+header div img {
+    margin: 5px 16px 5px 0;
+    cursor: pointer;
+}
+
+header div h3 {
+    font-weight: 400;
+    font-size: 32px;
+    display: inline-block;
+    color: #6255A5;
+    margin: 0 167px 0 0;
+    cursor: pointer;
+}
+
+nav>ul {
+    display: flex;
+    gap: 26px;
+    list-style-type: none;
+    color: #1F3E72;
+    font-size: 18px;
+    margin: 0;
+    padding-right: 76px;
+}
+
+li {
+    cursor: pointer;
+}
+
+.btn-log,
+.btn-reg {
+    padding: 12px 24px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #6255A5;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #6255A5;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.btn-reg {
+    color: white;
+    background-color: #85D1A0;
+    border: none;
+}
+
+/* Main styles */
+main {
+    margin-top: 80px;
 }
