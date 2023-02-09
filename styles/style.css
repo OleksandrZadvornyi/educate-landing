@@ -1,4 +1,6 @@
-/* Header styles */
+/* 
+ * Header styles 
+ */
 body {
     margin: 0;
 }
@@ -9,10 +11,6 @@ header {
     justify-content: center;
     height: 80px;
     width: 100%;
-
-    position: fixed;
-    top: 0;
-    background-color: white;
 }
 
 .header-container {
@@ -21,6 +19,7 @@ header {
     margin: 0;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 header div img {
@@ -72,7 +71,214 @@ li {
     border: none;
 }
 
-/* Main styles */
-main {
-    margin-top: 80px;
+/* 
+ * Main styles 
+ */
+.sect-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F7FF;
+    position: relative;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: 'Newsreader', serif;
+    font-weight: 500;
+    font-size: 72px;
+    text-align: center;
+    width: 677px;
+    color: #1F3E72;
+    margin: 92px 0 0 0;
+}
+
+.sect-1>p {
+    font-family: 'Kumbh Sans', sans-serif;
+    width: 603px;
+    font-size: 22px;
+    text-align: center;
+    color: #1F3E72BF;
+    margin: 24px 0 0 0;
+}
+
+.sect-1>button {
+    padding: 16px 32px;
+    margin-top: 40px;
+    background-color: #6255A5;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.sect-1>video {
+    margin: 80px 0 90px 0;
+    height: 520px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.flower-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 462px;
+    height: 336px;
+    bottom: 0;
+    left: 0;
+    transform: translate(-50%, 50%);
+}
+
+.leaf {
+    position: absolute;
+    width: 556px;
+    height: 22px;
+    background-color: #85D1A0;
+}
+
+.leaf-1 {
+    transform: skew(5deg) rotate(40deg);
+    top: 140px;
+    left: -30px;
+    height: 40px;
+}
+
+.leaf-2 {
+    transform: skew(5deg) rotate(15deg);
+    top: 120px;
+}
+
+.leaf-3 {
+    top: 120px;
+}
+
+.leaf-4 {
+    transform: skew(15deg) rotate(-16.3deg);
+    top: 120px;
+}
+
+.leaf-5 {
+    transform: skew(15deg) rotate(-30deg);
+    top: 110px;
+    left: -50px;
+}
+
+.leaf-6 {
+    transform: skew(15deg) rotate(-50deg);
+    top: 100px;
+    height: 25px;
+    width: 500px;
+}
+
+.leaf-7 {
+    transform: rotate(90deg);
+}
+
+.new-courses-sect {
+    padding: 120px;
+}
+
+.sect2-head-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sect2-head-container>h2 {
+    font-family: 'Newsreader', serif;
+    color: #1F3E72;
+    font-weight: 600;
+    font-size: 48px;
+    margin: 0;
+}
+
+.sect2-head-container button {
+    padding: 16px 32px;
+    background-color: #6255A5;
+    color: white;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.sect2-articles-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 56px;
+}
+
+.sect2-articles-container article {
+    width: 580px;
+}
+
+.sect2-articles-container img {
+    cursor: pointer;
+}
+
+.sect2-articles-container h3 {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    color: #1F3E72;
+    margin: 26px 0 0 20px;
+    cursor: pointer;
+}
+
+.sect2-articles-container p {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(31, 62, 114, 0.75);
+    margin: 18px 18px 0 20px;
+    line-height: 26px;
+}
+
+.sect2-articles-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin: 16px 0 54px 20px;
+}
+
+.sect2-articles-buttons :is(.btn-author, .btn-lesson) {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1F3E72;
+    background-color: white;
+    border: 1px solid rgba(31, 62, 114, 0.15);
+    border-radius: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.btn-author {
+    padding: 6px 12px;
+}
+
+.btn-author img {
+    width: 35px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.btn-lesson {
+    padding: 8px 16px;
+}
+
+.sect-3 {
+    background-color: #F9F7FF;
 }
