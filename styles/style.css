@@ -281,4 +281,98 @@ h1 {
 
 .sect-3 {
     background-color: #F9F7FF;
+    padding: 110px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sect-3>h2 {
+    font-family: 'Newsreader', serif;
+    font-weight: 500;
+    font-size: 48px;
+    color: #1F3E72;
+    text-align: center;
+    margin: 0;
+}
+
+.sect-3 span {
+    font-weight: 400;
+}
+
+.circles-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    background-color: #85D1A0;
+}
+
+.circle>p {
+    color: white;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.circle~p {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #1F3E72;
+    text-align: center;
+}
+
+.line-top {
+    width: 150px;
+    height: 20px;
+    background: transparent;
+    border: none;
+    border-top: 2px dashed #1F3E72;
+    padding: 40px 40px;
+    border-radius: 50%;
+    margin: 20px -50px 0;
+}
+
+.sect-3>p {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    color: #1F3E72;
+    margin: 84px 0 0 0;
+}
+
+.sect-3>button {
+    padding: 16px 32px;
+    margin-top: 32px;
+    background-color: #6255A5;
+    color: white;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    width: 210px;
 }
