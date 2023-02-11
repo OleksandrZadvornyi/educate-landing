@@ -46,8 +46,8 @@ nav>ul {
     padding-right: 76px;
 }
 
-li {
-    cursor: pointer;
+li>a {
+    text-decoration: none;
 }
 
 .btn-log,
@@ -74,6 +74,8 @@ li {
 /* 
  * Main styles 
  */
+
+/* Section 1 */
 .sect-1 {
     display: flex;
     flex-direction: column;
@@ -180,6 +182,7 @@ h1 {
     transform: rotate(90deg);
 }
 
+/* Section 2 */
 .new-courses-sect {
     padding: 120px;
 }
@@ -279,6 +282,7 @@ h1 {
     padding: 8px 16px;
 }
 
+/* Section 3 */
 .sect-3 {
     background-color: #F9F7FF;
     padding: 110px 120px;
@@ -375,4 +379,95 @@ h1 {
     border: none;
     cursor: pointer;
     width: 210px;
+}
+
+/* Section 4 */
+.sect-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 120px;
+}
+
+.sect-4-info {
+    width: 480px;
+}
+
+.sect-4-info>h2 {
+    font-family: 'Newsreader', serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #1F3E72;
+    margin: 0;
+}
+
+.sect-4-info>p {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(31, 62, 114, 0.75);
+    margin: 16px 0 0 0;
+    width: 460px;
+}
+
+.sect-4-info>dl {
+    margin: 40px 0 0 0;
+    width: 340px;
+}
+
+.sect-4-info>dl>dt {
+    font-family: 'Newsreader', serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #1F3E72;
+    margin: 0 0 8px 0;
+}
+
+.sect-4-info>dl>dt>img {
+    margin-right: 12px;
+}
+
+.sect-4-info>dl>dd {
+    margin: 8px 0 32px 34px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(31, 62, 114, 0.75);
+}
+
+.sect-4-info>a {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #6255A5;
+    text-decoration: none;
+}
+
+.sect-4-images-container {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sect-4-two-images {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+    align-self: flex-start;
+}
+
+.boy-image {
+    align-self: flex-endx;
+}
+
+/* Section 5 */
+.sect-5 {
+    background-color: #F9F7FF;
 }
