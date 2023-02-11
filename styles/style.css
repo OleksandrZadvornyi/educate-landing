@@ -470,4 +470,106 @@ h1 {
 /* Section 5 */
 .sect-5 {
     background-color: #F9F7FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sect-5>h2 {
+    margin: 90px 0 0 0;
+    text-align: center;
+    font-family: 'Newsreader', serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #1F3E72;
+}
+
+.sect-5>div {
+    padding: 40px 0 90px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 56px;
+}
+
+.student-picture {
+    width: 460px;
+    height: 440px;
+    position: relative;
+}
+
+.square {
+    width: 392px;
+    height: 276px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.green-square {
+    background-color: #85D1A0;
+    bottom: 0;
+}
+
+.grey-square {
+    background-color: #D4DAF3;
+    bottom: 35px;
+    left: 35px;
+}
+
+.student-picture>img {
+    position: absolute;
+    bottom: 35px;
+    left: 35px;
+}
+
+.student-comment-container {
+    width: 540px;
+}
+
+.student-comment-container>p {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(31, 62, 114, 0.75);
+    margin-top: 12px;
+}
+
+.stars-container {
+    margin: 40px 0 0 0;
+}
+
+.student-comment-container>h3 {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #1F3E72;
+    margin: 16px 0 0 0;
+}
+
+input[type="radio"] {
+    appearance: none;
+
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+
+    background-color: #D4DAF3;
+    border: 2px solid #fff;
+    transition: 0.2s all linear;
+    margin: 0 8px 0 0;
+
+    cursor: pointer;
+}
+
+input[type="radio"]:checked {
+    background-color: #6255A5;
+    border: 2px solid #6255A5;
+}
+
+.radio-buttons {
+    margin: 32px 0 0 0;
 }
