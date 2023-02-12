@@ -123,6 +123,7 @@ h1 {
     height: 520px;
     border-radius: 10px;
     cursor: pointer;
+    z-index: 1;
 }
 
 .flower-container {
@@ -132,6 +133,10 @@ h1 {
     align-items: center;
     width: 462px;
     height: 336px;
+    z-index: 0;
+}
+
+.flower-no-reverse {
     bottom: 0;
     left: 0;
     transform: translate(-50%, 50%);
@@ -654,4 +659,83 @@ input[type="radio"]:checked {
     color: rgba(31, 62, 114, 0.75);
 
     margin: 16px 0 0 0;
+}
+
+/* Section 7 */
+.sect-7 {
+    background-color: #F9F7FF;
+    position: relative;
+    overflow: hidden;
+}
+
+.sect-7>h2 {
+    font-family: 'Newsreader', serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    color: #1F3E72;
+
+    margin: 0;
+    padding: 80px 0 0 0;
+    text-align: center;
+}
+
+.sect-7>p {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: rgba(31, 62, 114, 0.8);
+
+    margin: 16px 0 0 0;
+    text-align: center;
+}
+
+.sect-7>form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    margin: 32px 0 0 0;
+    padding-bottom: 80px;
+    z-index: 1;
+}
+
+.sect-7>form>input {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(31, 62, 114, 0.5);
+
+    background-color: #F9F7FF;
+    border: 1px solid rgba(98, 85, 165, 0.3);
+    border-radius: 10px;
+
+    width: 362px;
+    padding: 16px 0 16px 16px;
+    z-index: 1;
+}
+
+.sect-7>form>button {
+    padding: 16px 32px;
+    background-color: #6255A5;
+    color: white;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.flower-reverse {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1) translate(-48%, 53%);;
+    right: 0;
+    bottom: 0;
 }
