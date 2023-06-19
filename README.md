@@ -22,8 +22,6 @@ This project does not use any libraries or frameworks. Only pure HTML and CSS ar
 * [![HTML][HTML]][HTML-url]
 * [![CSS][CSS]][CSS-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [product-screenshot]: website-preview.png
