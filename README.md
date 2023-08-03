@@ -43,7 +43,7 @@
   <br/><br/>
 </div>
 
-Educate is a one-page website built using the [template](https://www.figma.com/file/2XQ41agCVi0L19VN0S8Sza/E-learnWebsite?type=design&node-id=0-1&t=pjOaXp9OyRuNHcz5-0) from [Figma](https://www.figma.com/). The topic of the website is online education.
+Educate is a one-page website built using the [template](https://www.figma.com/file/2XQ41agCVi0L19VN0S8Sza/E-learnWebsite?type=design&node-id=0-1&t=pjOaXp9OyRuNHcz5-0) from [Figma](https://www.figma.com/). The topic of the website is online education. This website isn't mobile responsive.
 
 
 ### Deployment
