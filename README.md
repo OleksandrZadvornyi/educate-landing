@@ -3,11 +3,13 @@
 
 
 <!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+<p align="center">
+  <a href="https://github.com/OleksandrZadvornyi/E-learnWebsite/graphs/contributors"><img src="https://img.shields.io/github/contributors/OleksandrZadvornyi/E-learnWebsite.svg?style=for-the-badge"></a>
+  <a href="https://github.com/OleksandrZadvornyi/E-learnWebsite/network/members"><img src="https://img.shields.io/github/forks/OleksandrZadvornyi/E-learnWebsite.svg?style=for-the-badge"></a>
+  <a href="https://github.com/OleksandrZadvornyi/E-learnWebsite/stargazers"><img src="https://img.shields.io/github/stars/OleksandrZadvornyi/E-learnWebsite.svg?style=for-the-badge"></a>
+  <a href="https://github.com/OleksandrZadvornyi/E-learnWebsite/issues"><img src="https://img.shields.io/github/issues/OleksandrZadvornyi/E-learnWebsite.svg?style=for-the-badge"></a>
+  <a href="https://github.com/OleksandrZadvornyi/E-learnWebsite/blob/master/LICENSE"><img src="https://img.shields.io/github/license/OleksandrZadvornyi/E-learnWebsite.svg?style=for-the-badge"></a>
+</p>
 
 
 <!-- PROJECT LOGO -->
@@ -82,17 +84,6 @@ Project Link: [https://github.com/OleksandrZadvornyi/E-learnWebsite](https://git
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/OleksandrZadvornyi/E-learnWebsite.svg?style=for-the-badge
-[contributors-url]: https://github.com/OleksandrZadvornyi/E-learnWebsite/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/OleksandrZadvornyi/E-learnWebsite.svg?style=for-the-badge
-[forks-url]: https://github.com/OleksandrZadvornyi/E-learnWebsite/network/members
-[stars-shield]: https://img.shields.io/github/stars/OleksandrZadvornyi/E-learnWebsite.svg?style=for-the-badge
-[stars-url]: https://github.com/OleksandrZadvornyi/E-learnWebsite/stargazers
-[issues-shield]: https://img.shields.io/github/issues/OleksandrZadvornyi/E-learnWebsite.svg?style=for-the-badge
-[issues-url]: https://github.com/OleksandrZadvornyi/E-learnWebsite/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[product-screenshot]: website-preview.png
 [HTML]: https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white
 [HTML-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
 [CSS]: https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white
