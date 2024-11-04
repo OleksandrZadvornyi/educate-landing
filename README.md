@@ -1,7 +1,3 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-<a name="readme-top"></a>
-
-
 <!-- PROJECT SHIELDS -->
 <p align="center">
   <a href="https://github.com/OleksandrZadvornyi/E-learnWebsite/graphs/contributors"><img src="https://img.shields.io/github/contributors/OleksandrZadvornyi/E-learnWebsite.svg?style=for-the-badge"></a>
@@ -46,14 +42,12 @@
 </div>
 
 Educate is a one-page website built using the [template](https://www.figma.com/file/2XQ41agCVi0L19VN0S8Sza/E-learnWebsite?type=design&node-id=0-1&t=pjOaXp9OyRuNHcz5-0) from [Figma](https://www.figma.com/). The topic of the website is online education. This website isn't mobile responsive.
-
+<br><br>
 
 ### Deployment
 
 The website is deployed using [Netlify](https://www.netlify.com/). You can see it [here](https://e-learn-website.netlify.app/).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+<br><br>
 
 ### Built With
 
@@ -61,15 +55,13 @@ This project does not use any libraries or frameworks. Only pure HTML and CSS ar
 
 * [![HTML][HTML]][HTML-url]
 * [![CSS][CSS]][CSS-url]
+<br><br>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-## License
+### License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br><br>
 
 
 <!-- CONTACT -->
@@ -78,8 +70,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 Oleksandr - [@telegram](https://t.me/oleksandr_zadvornyi) - zadvornyi.alex16@gmail.com
 
 Project Link: [https://github.com/OleksandrZadvornyi/E-learnWebsite](https://github.com/OleksandrZadvornyi/E-learnWebsite)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br><br>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
