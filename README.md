@@ -15,7 +15,7 @@
     <img src="images/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">E-learn Website</h3>
+  <h3 align="center">Educate</h3>
 
   <p align="center">
     A simple one-page website about online education
