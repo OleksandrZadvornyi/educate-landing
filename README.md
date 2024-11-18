@@ -1,17 +1,17 @@
 <!-- PROJECT SHIELDS -->
 <p align="center">
-  <a href="https://github.com/OleksandrZadvornyi/E-learnWebsite/graphs/contributors"><img src="https://img.shields.io/github/contributors/OleksandrZadvornyi/E-learnWebsite.svg?style=for-the-badge"></a>
-  <a href="https://github.com/OleksandrZadvornyi/E-learnWebsite/network/members"><img src="https://img.shields.io/github/forks/OleksandrZadvornyi/E-learnWebsite.svg?style=for-the-badge"></a>
-  <a href="https://github.com/OleksandrZadvornyi/E-learnWebsite/stargazers"><img src="https://img.shields.io/github/stars/OleksandrZadvornyi/E-learnWebsite.svg?style=for-the-badge"></a>
-  <a href="https://github.com/OleksandrZadvornyi/E-learnWebsite/issues"><img src="https://img.shields.io/github/issues/OleksandrZadvornyi/E-learnWebsite.svg?style=for-the-badge"></a>
-  <a href="https://github.com/OleksandrZadvornyi/E-learnWebsite/blob/master/LICENSE"><img src="https://img.shields.io/github/license/OleksandrZadvornyi/E-learnWebsite.svg?style=for-the-badge"></a>
+  <a href="https://github.com/OleksandrZadvornyi/educate-landing/graphs/contributors"><img src="https://img.shields.io/github/contributors/OleksandrZadvornyi/educate-landing.svg?style=for-the-badge"></a>
+  <a href="https://github.com/OleksandrZadvornyi/educate-landing/network/members"><img src="https://img.shields.io/github/forks/OleksandrZadvornyi/educate-landing.svg?style=for-the-badge"></a>
+  <a href="https://github.com/OleksandrZadvornyi/educate-landing/stargazers"><img src="https://img.shields.io/github/stars/OleksandrZadvornyi/educate-landing.svg?style=for-the-badge"></a>
+  <a href="https://github.com/OleksandrZadvornyi/educate-landing/issues"><img src="https://img.shields.io/github/issues/OleksandrZadvornyi/educate-landing.svg?style=for-the-badge"></a>
+  <a href="https://github.com/OleksandrZadvornyi/educate-landing/blob/master/LICENSE"><img src="https://img.shields.io/github/license/OleksandrZadvornyi/educate-landing.svg?style=for-the-badge"></a>
 </p>
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/OleksandrZadvornyi/E-learnWebsite">
+  <a href="https://github.com/OleksandrZadvornyi/educate-landing">
     <img src="images/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
@@ -20,14 +20,14 @@
   <p align="center">
     A simple one-page website about online education
     <br />
-    <a href="https://github.com/OleksandrZadvornyi/E-learnWebsite"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/OleksandrZadvornyi/educate-landing"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/OleksandrZadvornyi/E-learnWebsite">View Demo</a>
+    <a href="https://github.com/OleksandrZadvornyi/educate-landing">View Demo</a>
     ·
-    <a href="https://github.com/OleksandrZadvornyi/E-learnWebsite/issues">Report Bug</a>
+    <a href="https://github.com/OleksandrZadvornyi/educate-landing/issues">Report Bug</a>
     ·
-    <a href="https://github.com/OleksandrZadvornyi/E-learnWebsite/issues">Request Feature</a>
+    <a href="https://github.com/OleksandrZadvornyi/educate-landing/issues">Request Feature</a>
   </p>
 
   [![Netlify Status](https://api.netlify.com/api/v1/badges/932efa56-ed9a-4db9-81d7-ab63cdd4a013/deploy-status)](https://app.netlify.com/sites/e-learn-website/deploys)
@@ -71,7 +71,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Oleksandr - [@telegram](https://t.me/oleksandr_zadvornyi) - zadvornyi.alex16@gmail.com
 
-Project Link: [https://github.com/OleksandrZadvornyi/E-learnWebsite](https://github.com/OleksandrZadvornyi/E-learnWebsite)
+Project Link: [https://github.com/OleksandrZadvornyi/educate-landing](https://github.com/OleksandrZadvornyi/educate-landing)
 <br><br>
 
 
