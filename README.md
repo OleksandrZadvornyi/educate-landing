@@ -84,7 +84,7 @@ open index.html  # or double-click on the file in your file explorer
 
 ### Customize the Styles (Optional)
 
-To customize the appearance of the website, you can modify the styles.css file.
+To customize the appearance of the website, you can modify the `styles/style.css` file.
 
 ## License
 
