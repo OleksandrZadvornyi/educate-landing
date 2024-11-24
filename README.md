@@ -59,8 +59,34 @@ This project does not use any libraries or frameworks. Only pure HTML and CSS ar
 * [![CSS][CSS]][CSS-url]
 <br><br>
 
+## Getting Started
 
-### License
+### Prerequisites
+
+Ensure you have a modern web browser to view the website (e.g., Google Chrome, Firefox, Safari, etc.).
+
+### Cloning the Repository
+
+To get a local copy of this project, run the following command:
+
+```bash
+git clone https://github.com/your-username/educate-landing.git
+```
+
+### Viewing the Project
+
+Navigate into the project directory and open the index.html file in your browser:
+
+```bash
+cd educate-landing
+open index.html  # or double-click on the file in your file explorer
+```
+
+### Customize the Styles (Optional)
+
+To customize the appearance of the website, you can modify the styles.css file.
+
+## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 <br><br>
