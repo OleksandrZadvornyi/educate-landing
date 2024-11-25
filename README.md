@@ -25,9 +25,9 @@
     <br />
     <a href="https://github.com/OleksandrZadvornyi/educate-landing">View Demo</a>
     ·
-    <a href="https://github.com/OleksandrZadvornyi/educate-landing/issues">Report Bug</a>
+    <a href="https://github.com/OleksandrZadvornyi/educate-landing/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/OleksandrZadvornyi/educate-landing/issues">Request Feature</a>
+    <a href="https://github.com/OleksandrZadvornyi/educate-landing/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 
   [![Netlify Status](https://api.netlify.com/api/v1/badges/932efa56-ed9a-4db9-81d7-ab63cdd4a013/deploy-status)](https://app.netlify.com/sites/e-learn-website/deploys)
