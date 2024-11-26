@@ -34,6 +34,7 @@
 </div>
 
 
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -59,6 +60,9 @@ This project does not use any libraries or frameworks. Only pure HTML and CSS ar
 * [![CSS][CSS]][CSS-url]
 <br><br>
 
+
+
+<!-- GETTING STARTED -->
 ## Getting Started
 
 ### Prerequisites
@@ -86,10 +90,30 @@ open index.html  # or double-click on the file in your file explorer
 
 To customize the appearance of the website, you can modify the `styles/style.css` file.
 
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+- [x] Create a landing page with HTML and CSS
+- [ ] Improve mobile responsiveness for smaller screens
+- [ ] Add animations to buttons and sections for a smoother user experience
+- [ ] Optimize images for faster loading
+- [ ] Multi-language Support
+    - [ ] Ukrainian
+    - [ ] French
+    - [ ] German
+
+See the [open issues](https://github.com/OleksandrZadvornyi/educate-landing/issues) for a full list of proposed features (and known issues).
+
+
+
+<!-- LICENCE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 <br><br>
+
 
 
 <!-- CONTACT -->
@@ -99,6 +123,7 @@ Oleksandr - [@telegram](https://t.me/oleksandr_zadvornyi) - zadvornyi.alex16@gma
 
 Project Link: [https://github.com/OleksandrZadvornyi/educate-landing](https://github.com/OleksandrZadvornyi/educate-landing)
 <br><br>
+
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
