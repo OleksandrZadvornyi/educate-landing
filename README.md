@@ -107,6 +107,18 @@ To customize the appearance of the website, you can modify the `styles/style.css
 See the [open issues](https://github.com/OleksandrZadvornyi/educate-landing/issues) for a full list of proposed features (and known issues).
 
 
+<!-- CONTRIBUTING -->
+## Contributing
+
+If you have suggestions for improvements, feel free to fork the repository and create a pull request. Any contributions you make are **greatly appreciated**. You can also open an issue with the tag "enhancement".
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
 
 <!-- LICENCE -->
 ## License
