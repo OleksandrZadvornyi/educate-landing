@@ -74,7 +74,7 @@ Ensure you have a modern web browser to view the website (e.g., Google Chrome, F
 To get a local copy of this project, run the following command:
 
 ```bash
-git clone https://github.com/your-username/educate-landing.git
+git clone https://github.com/OleksandrZadvornyi/educate-landing.git
 ```
 
 ### Viewing the Project
