@@ -1,0 +1,45 @@
+:root {
+  --clr-primary: hsla(230, 100%, 66%, 1);
+  --clr-secondary: hsla(51, 100%, 50%, 1);
+  --clr-black-primary: hsla(240, 6%, 10%, 1);
+  --clr-black-secondary: hsla(240, 5%, 34%, 1);
+  --clr-gray-secondary: hsla(0, 0%, 47%, 1);
+  --clr-gray-tone: hsla(0, 0%, 74%, 1);
+  --clr-white-primary: hsla(0, 0%, 100%, 1);
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
+  --fw-extra-bold: 800;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+section {
+  position: relative;
+}
+
+html {
+  color-scheme: light;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
