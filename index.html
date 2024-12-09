@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -24,8 +24,10 @@
 <body>
     <header>
         <div class="header-container">
-            <img src="./images/logo.svg" alt="Logo">
-            <h3>Educate</h3>
+            <div class="logo-cn">
+                <img src="./images/logo.svg" alt="Logo">
+                <h3>Educate</h3>
+            </div>
 
             <nav>
                 <ul>
@@ -37,8 +39,16 @@
                 </ul>
             </nav>
 
-            <button class="btn-log">log in</button>
-            <button class="btn-reg">Registration</button>
+            <div class="header-btns">
+                <button class="btn-log">Log in</button>
+                <button class="btn-reg">Registration</button>
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
         </div>
     </header>
 
@@ -75,7 +85,8 @@
                         <h3>Native Mac Apps in Swift</h3>
                         <p>Take your dev skills to the next level with this ground-up tutorial on native Mac apps</p>
                         <div class="sect2-articles-buttons">
-                            <button class="btn-author"><img src="./images/teacher.jpg" alt="Author Annabelle Portrar"> by
+                            <button class="btn-author"><img src="./images/teacher.jpg" alt="Author Annabelle Portrar">
+                                by
                                 Annabelle Portrar</button>
                             <button class="btn-lesson"><svg xmlns="http://www.w3.org/2000/svg" width="20px"
                                     viewBox="0 0 384 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
@@ -296,6 +307,8 @@
             </form>
         </section>
     </footer>
+
+    <script src="./js/burger.js"></script>
 </body>
 
 </html>
