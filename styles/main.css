@@ -1,0 +1,669 @@
+/* 
+ * Main styles 
+ */
+
+/* Section 1 */
+.sect-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F7FF;
+    position: relative;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: 'Newsreader', serif;
+    font-weight: 500;
+    font-size: 72px;
+    text-align: center;
+    width: 677px;
+    color: #1F3E72;
+    margin: 92px 0 0 0;
+}
+
+.sect-1>p {
+    font-family: 'Kumbh Sans', sans-serif;
+    width: 603px;
+    font-size: 22px;
+    text-align: center;
+    color: #1F3E72BF;
+    margin: 24px 0 0 0;
+}
+
+.sect-1>button {
+    padding: 16px 32px;
+    margin-top: 40px;
+    background-color: #6255A5;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.sect-1>video {
+    margin: 80px 0 90px 0;
+    height: 520px;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.flower-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 462px;
+    height: 336px;
+    z-index: 0;
+}
+
+.flower-no-reverse {
+    bottom: 0;
+    left: 0;
+    transform: translate(-50%, 50%);
+}
+
+.leaf {
+    position: absolute;
+    width: 556px;
+    height: 22px;
+    background-color: #85D1A0;
+}
+
+.leaf-1 {
+    transform: skew(5deg) rotate(40deg);
+    top: 140px;
+    left: -30px;
+    height: 40px;
+}
+
+.leaf-2 {
+    transform: skew(5deg) rotate(15deg);
+    top: 120px;
+}
+
+.leaf-3 {
+    top: 120px;
+}
+
+.leaf-4 {
+    transform: skew(15deg) rotate(-16.3deg);
+    top: 120px;
+}
+
+.leaf-5 {
+    transform: skew(15deg) rotate(-30deg);
+    top: 110px;
+    left: -50px;
+}
+
+.leaf-6 {
+    transform: skew(15deg) rotate(-50deg);
+    top: 100px;
+    height: 25px;
+    width: 500px;
+}
+
+.leaf-7 {
+    transform: rotate(90deg);
+}
+
+/* Section 2 */
+.new-courses-sect {
+    padding: 120px;
+}
+
+.sect2-head-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sect2-head-container>h2 {
+    font-family: 'Newsreader', serif;
+    color: #1F3E72;
+    font-weight: 600;
+    font-size: 48px;
+    margin: 0;
+}
+
+.sect2-head-container button {
+    padding: 16px 32px;
+    background-color: #6255A5;
+    color: white;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.sect2-articles-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 56px;
+    flex-wrap: wrap;
+}
+
+.sect2-articles-container article {
+    width: 580px;
+}
+
+.sect2-articles-container img {
+    cursor: pointer;
+}
+
+.sect2-articles-container h3 {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    color: #1F3E72;
+    margin: 26px 0 0 20px;
+    cursor: pointer;
+}
+
+.sect2-articles-container p {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(31, 62, 114, 0.75);
+    margin: 18px 18px 0 20px;
+    line-height: 26px;
+}
+
+.sect2-articles-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin: 16px 0 54px 20px;
+}
+
+.sect2-articles-buttons :is(.btn-author, .btn-lesson) {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1F3E72;
+    background-color: white;
+    border: 1px solid rgba(31, 62, 114, 0.15);
+    border-radius: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.btn-author {
+    padding: 6px 12px;
+}
+
+.btn-author img {
+    width: 35px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.btn-lesson {
+    padding: 8px 16px;
+}
+
+/* Section 3 */
+.sect-3 {
+    background-color: #F9F7FF;
+    padding: 110px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sect-3>h2 {
+    font-family: 'Newsreader', serif;
+    font-weight: 500;
+    font-size: 48px;
+    color: #1F3E72;
+    text-align: center;
+    margin: 0;
+}
+
+.sect-3 span {
+    font-weight: 400;
+}
+
+.circles-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    background-color: #85D1A0;
+}
+
+.circle>p {
+    color: white;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.circle~p {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #1F3E72;
+    text-align: center;
+}
+
+.line-top {
+    width: 150px;
+    height: 20px;
+    background: transparent;
+    border: none;
+    border-top: 2px dashed #1F3E72;
+    padding: 40px 40px;
+    border-radius: 50%;
+    margin: 20px -50px 0;
+}
+
+.sect-3>p {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    color: #1F3E72;
+    margin: 84px 0 0 0;
+}
+
+.sect-3>button {
+    padding: 16px 32px;
+    margin-top: 32px;
+    background-color: #6255A5;
+    color: white;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    width: 210px;
+}
+
+/* Section 4 */
+.sect-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 120px;
+}
+
+.sect-4-info {
+    width: 480px;
+}
+
+.sect-4-info>h2 {
+    font-family: 'Newsreader', serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #1F3E72;
+    margin: 0;
+}
+
+.sect-4-info>p {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(31, 62, 114, 0.75);
+    margin: 16px 0 0 0;
+    width: 460px;
+}
+
+.sect-4-info>dl {
+    margin: 40px 0 0 0;
+    width: 340px;
+}
+
+.sect-4-info>dl>dt {
+    font-family: 'Newsreader', serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #1F3E72;
+    margin: 0 0 8px 0;
+}
+
+.sect-4-info>dl>dt>img {
+    margin-right: 12px;
+}
+
+.sect-4-info>dl>dd {
+    margin: 8px 0 32px 34px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(31, 62, 114, 0.75);
+}
+
+.sect-4-info>a {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #6255A5;
+    text-decoration: none;
+}
+
+.sect-4-images-container {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sect-4-two-images {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+    align-self: flex-start;
+}
+
+.boy-image {
+    align-self: flex-end;
+}
+
+/* Section 5 */
+.sect-5 {
+    background-color: #F9F7FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sect-5>h2 {
+    margin: 90px 0 0 0;
+    text-align: center;
+    font-family: 'Newsreader', serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #1F3E72;
+}
+
+.sect-5>div {
+    padding: 40px 0 90px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 56px;
+}
+
+.student-picture {
+    width: 460px;
+    height: 440px;
+    position: relative;
+}
+
+.square {
+    width: 392px;
+    height: 276px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.green-square {
+    background-color: #85D1A0;
+    bottom: 0;
+}
+
+.grey-square {
+    background-color: #D4DAF3;
+    bottom: 35px;
+    left: 35px;
+}
+
+.student-picture>img {
+    position: absolute;
+    bottom: 35px;
+    left: 35px;
+}
+
+.student-comment-container {
+    width: 540px;
+}
+
+.student-comment-container>p {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(31, 62, 114, 0.75);
+    margin-top: 12px;
+}
+
+.stars-container {
+    margin: 40px 0 0 0;
+}
+
+.student-comment-container>h3 {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #1F3E72;
+    margin: 16px 0 0 0;
+}
+
+input[type="radio"] {
+    appearance: none;
+
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+
+    background-color: #D4DAF3;
+    border: 2px solid #F9F7FF;
+    transition: 0.2s all linear;
+    margin: 0 8px 0 0;
+
+    cursor: pointer;
+}
+
+input[type="radio"]:checked {
+    background-color: #6255A5;
+    border: 2px solid #6255A5;
+}
+
+.radio-buttons {
+    margin: 32px 0 0 0;
+}
+
+/* Section 6 */
+.sect-6 {
+    padding: 120px;
+}
+
+.sect6-head-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.sect6-head-container>h2 {
+    font-family: 'Newsreader', serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #1F3E72;
+    margin: 0;
+}
+
+.sect6-head-container button {
+    padding: 16px 32px;
+    background-color: #6255A5;
+    color: white;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.sect6-articles-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 52px;
+}
+
+.sect6-articles-container>article {
+    max-width: 400px;
+}
+
+.sect6-articles-container>article>img {
+    width: 400px;
+}
+
+.sect6-articles-container>article>p.date {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(31, 62, 114, 0.5);
+
+    margin: 24px 0 0 0;
+}
+
+.sect6-articles-container>article>h3 {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 600;
+    font-size: 28px;
+    line-height: 32px;
+    color: #1F3E72;
+    margin: 12px 0 0 0;
+}
+
+.sect6-articles-container>article>p:not(.date) {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(31, 62, 114, 0.75);
+
+    margin: 16px 0 0 0;
+}
+
+/* Section 7 */
+.sect-7 {
+    background-color: #F9F7FF;
+    position: relative;
+    overflow: hidden;
+}
+
+.sect-7>h2 {
+    font-family: 'Newsreader', serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    color: #1F3E72;
+
+    margin: 0;
+    padding: 80px 0 0 0;
+    text-align: center;
+}
+
+.sect-7>p {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: rgba(31, 62, 114, 0.8);
+
+    margin: 16px 0 0 0;
+    text-align: center;
+}
+
+.sect-7>form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    margin: 32px 0 0 0;
+    padding-bottom: 80px;
+    z-index: 1;
+}
+
+.sect-7>form>input {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(31, 62, 114, 0.5);
+
+    background-color: #F9F7FF;
+    border: 1px solid rgba(98, 85, 165, 0.3);
+    border-radius: 10px;
+
+    width: 362px;
+    padding: 16px 0 16px 16px;
+    z-index: 1;
+}
+
+.sect-7>form>button {
+    padding: 16px 32px;
+    background-color: #6255A5;
+    color: white;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.flower-reverse {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1) translate(-48%, 53%);
+    ;
+    right: 0;
+    bottom: 0;
+}
