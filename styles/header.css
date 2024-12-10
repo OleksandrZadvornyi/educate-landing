@@ -1,9 +1,6 @@
 /* 
  * Header styles 
  */
-body {
-  margin: 0;
-}
 
 header {
   display: flex;
