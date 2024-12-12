@@ -16,23 +16,25 @@
 h1 {
     font-family: 'Newsreader', serif;
     font-weight: 500;
-    font-size: 72px;
+    font-size: clamp(50px, 9vw, 72px);
+    /* font-size: 72px; */
     text-align: center;
-    width: 677px;
+    max-width: 678px;
     color: #1F3E72;
-    margin: 92px 0 0 0;
+    margin: clamp(50px, 8vw, 92px) 10px 0;
+    line-height: clamp(5rem, 10vw, 8.6rem);
 }
 
-.sect-1>p {
+.sect-1 > p {
     font-family: 'Kumbh Sans', sans-serif;
-    width: 603px;
-    font-size: 22px;
+    max-width: 604px;
+    font-size: clamp(20px, 2.8vw, 22px);
     text-align: center;
     color: #1F3E72BF;
-    margin: 24px 0 0 0;
+    margin: 24px 10px 0;
 }
 
-.sect-1>button {
+.sect-1 > button {
     padding: 16px 32px;
     margin-top: 40px;
     background-color: #6255A5;
@@ -45,12 +47,24 @@ h1 {
     cursor: pointer;
 }
 
-.sect-1>video {
-    margin: 80px 0 90px 0;
-    height: 520px;
+.sect-1 > video {
+    margin: 80px 0 90px;
+    width: 60vw;
     border-radius: 10px;
     cursor: pointer;
     z-index: 1;
+}
+
+@media only screen and (max-width: 768px) {
+    .sect-1 > video {
+        width: 70vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .sect-1 > video {
+        width: 80vw;
+    }
 }
 
 .flower-container {
@@ -116,7 +130,9 @@ h1 {
 
 /* Section 2 */
 .new-courses-sect {
-    padding: 120px;
+    padding: clamp(60px, 8vw, 120px) 0;
+    margin: 0 auto;
+    max-width: 84vw;
 }
 
 .sect2-head-container {
@@ -129,37 +145,37 @@ h1 {
     font-family: 'Newsreader', serif;
     color: #1F3E72;
     font-weight: 600;
-    font-size: 48px;
+    font-size: clamp(36px, 6vw, 48px);
     margin: 0;
 }
 
 .sect2-head-container button {
-    padding: 16px 32px;
+    padding: 0.5vw 2.5vw;
     background-color: #6255A5;
     color: white;
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: clamp(14px, 1.5vw, 18px);
     border-radius: 10px;
     border: none;
     cursor: pointer;
 }
 
-.sect2-articles-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 56px;
-    flex-wrap: wrap;
+@media only screen and (max-width: 480px) {
+    .sect2-head-container > button > span {
+        display: none;
+    }
 }
 
-.sect2-articles-container article {
-    width: 580px;
+.sect2-articles-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 7vw;
+    margin-top: 56px;
 }
 
 .sect2-articles-container img {
-    cursor: pointer;
+    width: 100%;
 }
 
 .sect2-articles-container h3 {
@@ -167,7 +183,7 @@ h1 {
     font-weight: 600;
     font-size: 28px;
     color: #1F3E72;
-    margin: 26px 0 0 20px;
+    margin: 26px 20px 0;
     cursor: pointer;
 }
 
