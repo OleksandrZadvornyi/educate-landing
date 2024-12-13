@@ -58,6 +58,7 @@ This project does not use any libraries or frameworks. Only pure HTML and CSS ar
 
 * [![HTML][HTML]][HTML-url]
 * [![CSS][CSS]][CSS-url]
+* [![JS][JS]][JS-url]
 <br><br>
 
 
@@ -144,3 +145,5 @@ Project Link: [https://github.com/OleksandrZadvornyi/educate-landing](https://gi
 [HTML-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
 [CSS]: https://img.shields.io/badge/CSS-blue?&style=for-the-badge&logo=css3&logoColor=white
 [CSS-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
+[JS]: https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white
+[JS-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
