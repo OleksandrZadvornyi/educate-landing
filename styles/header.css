@@ -53,7 +53,7 @@ nav > ul {
   gap: 1.6rem;
 }
 
-.btn-log,
+/*.btn-log,
 .btn-reg {
   padding: 0.6em 1.2em;
   background-color: white;
@@ -72,6 +72,39 @@ nav > ul {
   color: white;
   background-color: #85d1a0;
   border: none;
+} */
+
+/* button styles */
+.btn-log,
+.btn-reg {
+  padding: 0.6em 1.2em;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid #6255a5;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #6255a5;
+  cursor: pointer;
+  min-width: fit-content;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for btn-log */
+.btn-log:hover {
+  transform: scale(1.05);
+  background-color: #6255a5; /* Change to primary color */
+  color: white; /* Text changes to white */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a soft shadow */
+}
+
+/* Hover effect for btn-reg */
+.btn-reg:hover {
+  transform: scale(1.05);
+  background-color: #72c791; /* Slightly darker green */
+  color: #ffffff; /* text remains white */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a soft shadow */
 }
 
 #menu__toggle {
