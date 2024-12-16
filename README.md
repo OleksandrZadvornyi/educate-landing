@@ -119,6 +119,11 @@ If you have suggestions for improvements, feel free to fork the repository and c
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+### Contributors:
+
+<a href="https://github.com/OleksandrZadvornyi/educate-landing/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=OleksandrZadvornyi/educate-landing" alt="contrib.rocks image" />
+</a>
 
 
 <!-- LICENCE -->
