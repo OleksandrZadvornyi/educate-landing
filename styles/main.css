@@ -667,3 +667,24 @@ input[type="radio"]:checked {
     right: 0;
     bottom: 0;
 }
+
+/* Button basic styles */
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #6255a5;
+    background-color: transparent;
+    color: #6255a5;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Button hover animation */
+  .button:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    background-color: #6255a5; /* Change background on hover */
+    color: white; /* Change text color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+  }
+  
