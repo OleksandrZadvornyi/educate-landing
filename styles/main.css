@@ -258,7 +258,6 @@ h1 {
 .circles-container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     gap: 3rem;
     justify-content: space-around;
     align-items: center;
@@ -335,6 +334,9 @@ h1 {
 }
 
 @media only screen and (max-width: 1124px) {
+    .circles-container {
+        flex-wrap: wrap;
+    }
     .circles-container > img {
         display: none;
     }
@@ -344,20 +346,21 @@ h1 {
 .sect-4 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 
-    padding: 120px;
+    padding: 120px 8.5vw;
 }
 
 .sect-4-info {
-    width: 480px;
+    max-width: 480px;
+    flex-grow: 2;
 }
 
 .sect-4-info>h2 {
     font-family: 'Newsreader', serif;
     font-weight: 600;
-    font-size: 48px;
+    font-size: clamp(40px, 6vw, 48px);
     color: #1F3E72;
     margin: 0;
 }
@@ -368,12 +371,12 @@ h1 {
     font-size: 20px;
     color: rgba(31, 62, 114, 0.75);
     margin: 16px 0 0 0;
-    width: 460px;
+    max-width: 460px;
 }
 
 .sect-4-info>dl {
     margin: 40px 0 0 0;
-    width: 340px;
+    max-width: 340px;
 }
 
 .sect-4-info>dl>dt {
@@ -386,6 +389,7 @@ h1 {
 
 .sect-4-info>dl>dt>img {
     margin-right: 12px;
+    display: inline-block;
 }
 
 .sect-4-info>dl>dd {
@@ -407,10 +411,12 @@ h1 {
 .sect-4-images-container {
     display: flex;
     flex-direction: row;
-    width: 600px;
-    height: 500px;
-    justify-content: space-between;
+    gap: 3rem;
     align-items: center;
+}
+
+.sect-4-images-container > * {
+    width: fit-content;
 }
 
 .sect-4-two-images {
@@ -420,10 +426,54 @@ h1 {
     align-items: center;
 
     align-self: flex-start;
+    padding-bottom: 2.4rem;
 }
 
 .boy-image {
     align-self: flex-end;
+}
+
+@media only screen and (max-width: 1314px) {
+    .sect-4-two-images * {
+        max-width: 90%;
+    }
+    
+    .boy-image {
+        max-width: 45%;
+    }
+}
+
+@media only screen and (max-width: 1124px) {
+    .boy-image {
+        display: none;
+    }
+    
+    .sect-4-two-images * {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 944px) {
+    .sect-4 {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    
+    .sect-4-info {
+        text-align: center;
+    }
+
+    .sect-4-info > dl {
+        margin: 4rem auto 0;
+    }
+
+    .sect-4-info > dl dd {
+        margin-left: 0;
+    }
+
+    .sect-4-two-images * {
+        display: none;
+    }
 }
 
 /* Section 5 */
