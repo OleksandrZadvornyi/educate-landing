@@ -482,7 +482,7 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 0 3vw;
+    padding: 0 3vw;
 }
 
 .sect-5>h2 {
