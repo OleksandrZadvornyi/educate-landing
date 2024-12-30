@@ -614,11 +614,12 @@ input[type="radio"]:checked {
     }
 }
 
+
 /* Section 6 */
 
 
 .sect-6 {
-    padding: 120px;
+    padding: 120px 8vw;
 }
 
 .sect6-head-container {
@@ -626,13 +627,12 @@ input[type="radio"]:checked {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
 }
 
 .sect6-head-container>h2 {
     font-family: 'Newsreader', serif;
     font-weight: 700;
-    font-size: 40px;
+    font-size: clamp(32px, 6vw, 40px);
     color: #1F3E72;
     margin: 0;
 }
@@ -643,28 +643,23 @@ input[type="radio"]:checked {
     color: white;
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: clamp(14px, 1.5vw, 16px);
     border-radius: 10px;
     border: none;
     cursor: pointer;
+    text-wrap: nowrap;
 }
 
 .sect6-articles-container {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     justify-content: space-between;
-    align-items: start;
-    flex-wrap: wrap;
-    width: 100%;
+    gap: 3rem;
     margin-top: 52px;
 }
 
-.sect6-articles-container>article {
-    max-width: 400px;
-}
-
 .sect6-articles-container>article>img {
-    width: 400px;
+    width: 100%;
 }
 
 .sect6-articles-container>article>p.date {
