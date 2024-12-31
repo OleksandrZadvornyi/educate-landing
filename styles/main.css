@@ -691,23 +691,29 @@ input[type="radio"]:checked {
     margin: 16px 0 0 0;
 }
 
+
 /* Section 7 */
+
+
 .sect-7 {
     background-color: #F9F7FF;
     position: relative;
     overflow: hidden;
+    padding: 0 6vw;
 }
 
 .sect-7>h2 {
     font-family: 'Newsreader', serif;
     font-weight: 600;
-    font-size: 48px;
+    font-size: clamp(40px, 6vw, 48px);
     line-height: 48px;
     color: #1F3E72;
 
     margin: 0;
     padding: 80px 0 0 0;
     text-align: center;
+    position: relative;
+    z-index: 1;
 }
 
 .sect-7>p {
@@ -719,11 +725,14 @@ input[type="radio"]:checked {
 
     margin: 16px 0 0 0;
     text-align: center;
+    position: relative;
+    z-index: 1;
 }
 
 .sect-7>form {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 16px;
@@ -745,6 +754,7 @@ input[type="radio"]:checked {
     border-radius: 10px;
 
     width: 362px;
+    min-width: 200px;
     padding: 16px 0 16px 16px;
     z-index: 1;
 }
