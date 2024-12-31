@@ -163,7 +163,7 @@ nav > ul {
   }
 
   nav {
-    position: absolute;
+    position: fixed;
     z-index: 1;
     top: 0;
     right: -100%;
@@ -209,5 +209,28 @@ nav > ul {
 
   .header-btns > img {
     display: block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .logo-cn {
+    gap: 6px;
+  }
+
+  .logo-cn > img {
+    width: 32px;
+  }
+
+  .logo-cn h3 {
+    font-weight: 400;
+    font-size: 28px;
+  }
+
+  .header-btns > img {
+    height: 32px;
+  }
+  
+  .menu__btn {
+    min-width: 40px;
   }
 }
