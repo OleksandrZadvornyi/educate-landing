@@ -5,17 +5,22 @@
 footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    gap: 2rem;
 
-    padding: 100px 0;
+    padding: 100px 6vw;
 }
 
 .educate-section {
-    width: 260px;
+    max-width: 260px;
 
     align-self: flex-start;
+}
+
+.useful-links * {
+    max-width: fit-content;
 }
 
 .footer-logo {
@@ -93,7 +98,7 @@ footer ul li {
 }
 
 .subscribe-section {
-    width: 268px;
+    max-width: 268px;
 }
 
 .subscribe-section p {
@@ -132,4 +137,61 @@ footer button {
 
 .fa-paper-plane {
     color: #fff;
+}
+
+@media only screen and (max-width: 940px) {
+    .educate-section {
+        order: 1;
+        justify-self: right;
+    }
+    .subscribe-section {
+        order: 2;
+    }
+    .useful-links {
+        order: 3;
+        justify-self: right;
+    }
+    .community-section {
+        order: 4;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+   footer {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .footer-logo {
+        justify-content: center;
+    }
+
+    .footer-icons {
+        justify-content: center;
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .useful-links, .community-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .educate-section,
+    .useful-links {
+        justify-self: unset;
+    } 
 }
