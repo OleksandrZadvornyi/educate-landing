@@ -152,6 +152,65 @@ nav > ul {
   display: none;
 }
 
+/* Language Selector Container */
+.language-selector {
+}
+
+/* Current Language Button */
+.current-language {
+  border: none;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.current-language:hover {
+  transform: scale(1.1);
+}
+
+/* Dropdown Menu */
+.language-dropdown {
+  display: none;
+  position: absolute;
+  width: fit-content;
+  top: 50px;
+  right: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  z-index: 100;
+}
+
+/* Dropdown Items */
+.language-dropdown li {
+  padding: 5px 25px 5px 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.2s ease;
+}
+
+.language-dropdown li:hover {
+  background-color: #f0f0f0;
+}
+
+/* Dropdown Flags */
+.language-dropdown img {
+  width: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
 @media only screen and (max-width: 1200px) {
   .header-container {
     grid-template-columns: 1fr 1fr;
