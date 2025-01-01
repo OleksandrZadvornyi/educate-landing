@@ -2,6 +2,21 @@ const languageButton = document.querySelector(".current-language");
 const dropdown = document.querySelector(".language-dropdown");
 const currentFlag = document.getElementById("current-flag");
 
+async function loadTranslations(lang) {
+  try {
+    const response = await fetch(`../db/${lang}.json`);
+    const translations = await response.json();
+
+    document.querySelectorAll("[data-i18n]").forEach((el) => {
+      const key = el.getAttribute("data-i18n");
+      el.innerHTML = translations[key];
+    });
+  } catch (error) {
+    console.error("Error loading translations:", error);
+  }
+}
+
+
 // Toggle Dropdown Visibility
 languageButton.addEventListener("click", () => {
   dropdown.style.display =
@@ -23,7 +38,7 @@ dropdown.addEventListener("click", (event) => {
 
     // Change language (you can reuse the language loading logic here)
     loadTranslations(selectedLang);
-    localStorage.setItem("lang", selectedLang);
+    //localStorage.setItem("lang", selectedLang);
   }
 });
 
@@ -35,4 +50,9 @@ document.addEventListener("click", (event) => {
   ) {
     dropdown.style.display = "none";
   }
+});
+
+// Load a default language (e.g., English) on page load
+window.addEventListener("DOMContentLoaded", () => {
+  loadTranslations("en");
 });
