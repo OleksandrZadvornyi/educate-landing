@@ -31,18 +31,18 @@
 
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Programs</a></li>
-                    <li><a href="#">Courses</a></li>
-                    <li><a href="#">Admissions</a></li>
-                    <li><a href="#">Testimonial</a></li>
+                    <li><a href="#" data-i18n="nav_home">Home</a></li>
+                    <li><a href="#" data-i18n="nav_programs">Programs</a></li>
+                    <li><a href="#" data-i18n="nav_courses">Courses</a></li>
+                    <li><a href="#" data-i18n="nav_admissions">Admissions</a></li>
+                    <li><a href="#" data-i18n="nav_testimonial">Testimonial</a></li>
                 </ul>
             </nav>
 
             <div class="header-btns">
                 <img src="./images/login-icon.png" alt="Login Icon">
-                <button class="btn-log">Log in</button>
-                <button class="btn-reg">Registration</button>
+                <button class="btn-log" data-i18n="log_in">Log in</button>
+                <button class="btn-reg" data-i18n="registration">Registration</button>
                 <input id="menu__toggle" type="checkbox" />
                 <label class="menu__btn" for="menu__toggle">
                     <span></span>
@@ -75,10 +75,9 @@
 
     <main>
         <section class="sect-1">
-            <h1>Get The Best Online Learning Service</h1>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when
-                looking at its layout. The point of using Lorem.</p>
-            <button class = "button">Start a course</button>
+            <h1 data-i18n="hero_title">Get The Best Online Learning Service</h1>
+            <p data-i18n="hero_text">Access high-quality online education with courses designed to help you succeed. Our platform offers a variety of flexible learning options to meet your needs, making education accessible anytime, anywhere.</p>
+            <button class="button" data-i18n="start_course">Start Course</button>
             <video src="videos/video.mp4" poster="./images/placeholder.svg" controls></video>
 
             <!-- Green flower at the bottom left of the first section -->
@@ -95,21 +94,21 @@
 
         <section class="new-courses-sect">
             <div class="sect2-head-container">
-                <h2>New Courses</h2>
-                <button class = "button">EXPLORE COURSES</button>
+                <h2 data-i18n="new_courses_title">New Courses</h2>
+                <button class="button" data-i18n="explore_courses">EXPLORE COURSES</button>
             </div>
 
             <div class="sect2-articles-container">
                 <article>
                     <img src="./images/software-course.svg" alt="Software">
                     <div>
-                        <h3>Native Mac Apps in Swift</h3>
-                        <p>Take your dev skills to the next level with this ground-up tutorial on native Mac apps</p>
+                        <h3 data-i18n="course_1_title">Native Mac Apps in Swift</h3>
+                        <p data-i18n="course_1_description">Take your dev skills to the next level with this ground-up tutorial on native Mac apps</p>
                         <div class="sect2-articles-buttons">
                             <button class="btn-author"><img src="./images/teacher.jpg" alt="Author Annabelle Portrar">
                                 by
                                 Annabelle Portrar</button>
-                            <button class="btn-lesson"><svg xmlns="http://www.w3.org/2000/svg" width="20px"
+                            <button class="btn-lesson" data-i18n="lessons_number"><svg xmlns="http://www.w3.org/2000/svg" width="20px"
                                     viewBox="0 0 384 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                                     <path fill="#1F3E72"
                                         d="M64 464c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16H224v80c0 17.7 14.3 32 32 32h80V448c0 8.8-7.2 16-16 16H64zM64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V154.5c0-17-6.7-33.3-18.7-45.3L274.7 18.7C262.7 6.7 246.5 0 229.5 0H64zm56 256c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120z" />
@@ -120,12 +119,12 @@
 
                 <article>
                     <img src="./images/design-course.svg" alt="Art & Design">
-                    <h3>Fundamentals of Interior Design</h3>
-                    <p>The beginner's guide to designing and renovating stunning interiors</p>
+                    <h3 data-i18n="course_2_title">Fundamentals of Interior Design</h3>
+                    <p data-i18n="course_2_description">The beginner's guide to designing and renovating stunning interiors</p>
                     <div class="sect2-articles-buttons">
                         <button class="btn-author"><img src="./images/teacher.jpg" alt="Author Annabelle Portrar">by
                             Annabelle Portrar</button>
-                        <button class="btn-lesson"><svg xmlns="http://www.w3.org/2000/svg" width="20px"
+                        <button class="btn-lesson" data-i18n="lessons_number"><svg xmlns="http://www.w3.org/2000/svg" width="20px"
                                 viewBox="0 0 384 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                                 <path fill="#1F3E72"
                                     d="M64 464c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16H224v80c0 17.7 14.3 32 32 32h80V448c0 8.8-7.2 16-16 16H64zM64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V154.5c0-17-6.7-33.3-18.7-45.3L274.7 18.7C262.7 6.7 246.5 0 229.5 0H64zm56 256c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120z" />
@@ -136,13 +135,13 @@
         </section>
 
         <section class="sect-3">
-            <h2>How does <span>Educate</span> work?</h2>
+            <h2 data-i18n="how_it_works_title">How does <span>Educate</span> work?</h2>
             <div class="circles-container">
                 <div class="step">
                     <div class="circle">
                         <p>1</p>
                     </div>
-                    <p>Browse course from our expert contributtor</p>
+                    <p data-i18n="how_it_works_step_1">Browse course from our expert contributtor</p>
                 </div>
                 <img src="./images/dash-line1.png" alt="Dash line">
 
@@ -150,7 +149,7 @@
                     <div class="circle">
                         <p>2</p>
                     </div>
-                    <p>Purchase quickly and securely</p>
+                    <p data-i18n="how_it_works_step_2">Purchase quickly and securely</p>
                 </div>
 
                 <img src="./images/dash-line2.png" alt="Dash line">
@@ -158,27 +157,26 @@
                     <div class="circle">
                         <p>3</p>
                     </div>
-                    <p>Start your learning right away</p>
+                    <p data-i18n="how_it_works_step_3">Start your learning right away</p>
                 </div>
             </div>
-            <p>Join over 1,000 satisfied learners today.</p>
-            <button class = "button">Explore courses</button>
+            <p data-i18n="how_it_works_cta">Join over 1,000 satisfied learners today.</p>
+            <button class="button" data-i18n="explore_courses">Explore courses</button>
         </section>
 
         <section class="sect-4">
             <div class="sect-4-info">
-                <h2>Why Should You take our course</h2>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
-                    looking at its layout.</p>
+                <h2 data-i18n="why_take_course_title">Why Should You take our course</h2>
+                <p data-i18n="why_take_course_description">Educate offers an innovative approach to online learning, empowering you to achieve your goals with world-class resources and expert guidance.</p>
                 <dl>
-                    <dt><img src="./images/double-checkmark.svg" alt="Double checkmark">World class</dt>
-                    <dd>Lorem Ipsum is simply dummy text of the printing and typesetting</dd>
+                    <dt data-i18n="why_take_course_world_class"><img src="./images/double-checkmark.svg" alt="Double checkmark">World-Class Education</dt>
+                    <dd data-i18n="why_take_course_world_class_description">Learn from industry-leading experts and gain skills that set you apart in your career.</dd>
 
-                    <dt><img src="./images/double-checkmark.svg" alt="Double checkmark">Affordable</dt>
-                    <dd>Lorem Ipsum is simply dummy text of the printing and typesetting</dd>
+                    <dt data-i18n="why_take_course_affordable"><img src="./images/double-checkmark.svg" alt="Double checkmark">Affordable Learning</dt>
+                    <dd data-i18n="why_take_course_affordable_description">Access high-quality education at prices that fit your budget, making learning accessible to everyone.</dd>
                 </dl>
 
-                <a href="">Learn more</a>
+                <a href="" data-i18n="learn_more">Learn more</a>
             </div>
             <div class="sect-4-images-container">
                 <div class="sect-4-two-images">
@@ -190,7 +188,7 @@
         </section>
 
         <section class="sect-5">
-            <h2>What Our Students Say</h2>
+            <h2 data-i18n="testimonials_title">What Our Students Say</h2>
             <div>
                 <div class="student-picture">
                     <div class="square green-square"></div>
@@ -199,9 +197,7 @@
                 </div>
                 <div class="student-comment-container">
                     <img src="./images/quotation-mark-blue.svg" alt="">
-                    <p>How much will it cost the target audience is makes and famles aged zero and up, for i'll pay you
-                        in a week we don't need to pay upfront i hope you understand yet i'll know it when i see it
-                        there are more projects lined up charge extra the next time,</p>
+                    <p data-i18n="testimonial_quote">Educate has completely transformed how I learn. The courses are engaging, the platform is intuitive, and I feel more confident in my skills every day!</p>
                     <div class="stars-container">
                         <img src="./images/star.svg" alt="A golden star">
                         <img src="./images/star.svg" alt="A golden star">
@@ -209,8 +205,8 @@
                         <img src="./images/star.svg" alt="A golden star">
                         <img src="./images/star.svg" alt="A golden star">
                     </div>
-                    <h3>Dianne Russel</h3>
-                    <p>Poland</p>
+                    <h3 data-i18n="testimonial_name">Dianne Russel</h3>
+                    <p data-i18n="testimonial_country">Poland</p>
                     <div class="radio-buttons">
                         <input type="radio" name="student">
                         <input type="radio" name="student" checked>
@@ -222,39 +218,39 @@
 
         <section class="sect-6">
             <div class="sect6-head-container">
-                <h2>Recourse & Insight</h2>
-                <button class = "button">VISIT BLOG</button>
+                <h2 data-i18n="resources_title">Recourse & Insight</h2>
+                <button class="button" data-i18n="visit_blog">VISIT BLOG</button>
             </div>
             <div class="sect6-articles-container">
                 <article>
                     <img src="./images/person-with-laptop.svg" alt="A person with laptop">
-                    <p class="date">December2,2020</p>
-                    <h3>Engendering a culture of professionall development</h3>
-                    <p>Eget dictums id acru accuman.Diam phatra dignissim libero montes</p>
+                    <p class="date" data-i18n="blog_date">December 2,2020</p>
+                    <h3 data-i18n="blog_1_title">Fostering a Culture of Lifelong Learning</h3>
+                    <p data-i18n="blog_1_description">Discover strategies to cultivate continuous professional growth in today’s fast-paced world.</p>
                 </article>
 
                 <article>
                     <img src="./images/woman.svg" alt="A smiley woman">
-                    <p class="date">December2,2020</p>
-                    <h3>Increasing engagement with instagram</h3>
-                    <p>Erat gravida hac nec in. Tristique justo id non vitae egestas.</p>
+                    <p class="date" data-i18n="blog_date">December 2,2020</p>
+                    <h3 data-i18n="blog_2_title">Boosting Engagement Through Social Media</h3>
+                    <p data-i18n="blog_2_description">Learn how platforms like Instagram can revolutionize your online learning experience.</p>
                 </article>
 
                 <article>
                     <img src="./images/couch.svg" alt="A couch">
-                    <p class="date">December2,2020</p>
-                    <h3>Why the workplace will never be the same</h3>
-                    <p>Lorem id diam fringilla imperdiet. Id consequat, diam aliquam porttitor.</p>
+                    <p class="date" data-i18n="blog_date">December 2,2020</p>
+                    <h3 data-i18n="blog_3_title">The Future of Remote Work and Education</h3>
+                    <p data-i18n="blog_3_description">Explore how remote trends are shaping the workplace and redefining education opportunities.</p>
                 </article>
             </div>
         </section>
 
         <section class="sect-7">
-            <h2>Stay In The Loop</h2>
-            <p>Spam-free insight direct to your inbox</p>
+            <h2 data-i18n="newsletter_title">Stay In The Loop</h2>
+            <p data-i18n="newsletter_text">Spam-free insight direct to your inbox</p>
             <form action="">
                 <input type="email" placeholder="Email Adress">
-                <button class = "button">SUBSCRIBE</button>
+                <button class="button" data-i18n="subscribe">SUBSCRIBE</button>
             </form>
 
             <!-- Green flower at the bottom right of the seventh section -->
@@ -276,8 +272,7 @@
                 <img src="images/logo.svg" alt="Logo">
                 <h3>Educate</h3>
             </div>
-            <p>A new way to make the payments easy, reliable and 100% secure. claritatem itamconse quat. Exerci
-                tationulla</p>
+            <p data-i18n="footer_about_text">Discover a new way to learn that's easy, reliable, and tailored to your success. Empowering education for everyone, everywhere.</p>
 
             <div class="footer-icons">
                 <div class="icon-circle">
@@ -296,30 +291,30 @@
         </section>
 
         <section class="useful-links">
-            <h4>Useful Links</h4>
+            <h4 data-i18n="useful_links_title">Useful Links</h4>
             <ul>
-                <li><a href="">Contact us</a></li>
-                <li><a href="">How it Works</a></li>
-                <li><a href="">Create</a></li>
-                <li><a href="">Explore</a></li>
-                <li><a href="">Terms & Services</a></li>
+                <li><a href="" data-i18n="useful_contact">Contact us</a></li>
+                <li><a href="" data-i18n="useful_how_it_works">How it Works</a></li>
+                <li><a href="" data-i18n="useful_create">Create</a></li>
+                <li><a href="" data-i18n="useful_explore">Explore</a></li>
+                <li><a href="" data-i18n="useful_terms">Terms & Services</a></li>
             </ul>
         </section>
 
         <section class="community-section">
-            <h4>Community</h4>
+            <h4 data-i18n="community_title">Community</h4>
             <ul>
-                <li><a href="">Help Center</a></li>
-                <li><a href="">Partners</a></li>
-                <li><a href="">Suggestions</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Newsletters</a></li>
+                <li><a href="" data-i18n="community_help_center">Help Center</a></li>
+                <li><a href="" data-i18n="community_partners">Partners</a></li>
+                <li><a href="" data-i18n="community_suggestions">Suggestions</a></li>
+                <li><a href="" data-i18n="community_blog">Blog</a></li>
+                <li><a href="" data-i18n="community_newsletters">Newsletters</a></li>
             </ul>
         </section>
 
         <section class="subscribe-section">
-            <h4>Subscribe Newslatter</h4>
-            <p>Exerci tation ullamcorper suscipit lobortis nisl aliquip ex ea commodo</p>
+            <h4 data-i18n="subscribe_newsletter_title">Stay Updated</h4>
+            <p data-i18n="subscribe_newsletter_text">Subscribe to our newsletter for the latest insights, tips, and updates delivered directly to your inbox.</p>
             <form action="">
                 <input type="email" placeholder="Enter your mail">
                 <button><i class="fa-solid fa-paper-plane"></i></button>
