@@ -101,7 +101,7 @@ To customize the appearance of the website, you can modify the `styles/style.css
 - [x] Add animations to buttons and sections for a smoother user experience
 - [ ] Optimize images for faster loading
 - [ ] Multi-language Support
-    - [ ] Ukrainian
+    - [x] Ukrainian
     - [ ] French
     - [ ] German
 
