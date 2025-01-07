@@ -78,7 +78,7 @@
             <h1 data-i18n="hero_title">Get The Best Online Learning Service</h1>
             <p data-i18n="hero_text">Access high-quality online education with courses designed to help you succeed. Our platform offers a variety of flexible learning options to meet your needs, making education accessible anytime, anywhere.</p>
             <button class="button" data-i18n="start_course">Start Course</button>
-            <video src="videos/video.mp4" poster="./images/placeholder.png" controls></video>
+            <video src="videos/video.mp4" poster="./images/placeholder.webp" controls></video>
 
             <!-- Green flower at the bottom left of the first section -->
             <div class="flower-container flower-no-reverse">
@@ -100,7 +100,11 @@
 
             <div class="sect2-articles-container">
                 <article>
-                    <img src="./images/software-course.png" alt="Software">
+                    <picture>
+                        <source srcset="./images/software-course.webp" type="image/webp">
+                        <source srcset="./images/software-course.png" type="image/png"> 
+                        <img src="./images/software-course.png">
+                    </picture>
                     <div>
                         <h3 data-i18n="course_1_title">Native Mac Apps in Swift</h3>
                         <p data-i18n="course_1_description">Take your dev skills to the next level with this ground-up tutorial on native Mac apps</p>
@@ -118,7 +122,12 @@
                 </article>
 
                 <article>
-                    <img src="./images/design-course.png" alt="Art & Design">
+                    <picture>
+                        <source srcset="./images/design-course.webp" type="image/webp">
+                        <source srcset="./images/design-course.png" type="image/png"> 
+                        <img src="./images/design-course.png">
+                    </picture>
+
                     <h3 data-i18n="course_2_title">Fundamentals of Interior Design</h3>
                     <p data-i18n="course_2_description">The beginner's guide to designing and renovating stunning interiors</p>
                     <div class="sect2-articles-buttons">
@@ -180,10 +189,18 @@
             </div>
             <div class="sect-4-images-container">
                 <div class="sect-4-two-images">
-                    <img class="girl-image" src="./images/girl-with-books.png" alt="A student with books">
+                    <picture class="girl-image">
+                        <source srcset="./images/girl-with-books.webp" type="image/webp">
+                        <source srcset="./images/girl-with-books.png" type="image/png"> 
+                        <img src="./images/girl-with-books.png">
+                    </picture>
                     <img src="./images/quotation-mark-green.svg" alt="Quotation mark">
                 </div>
-                <img class="boy-image" src="./images/guy-thumbs-up.png" alt="A student with thumbs up">
+                <picture class="boy-image">
+                    <source srcset="./images/guy-thumbs-up.webp" type="image/webp">
+                    <source srcset="./images/guy-thumbs-up.png" type="image/png"> 
+                    <img src="./images/guy-thumbs-up.png">
+                </picture>
             </div>
         </section>
 
@@ -193,7 +210,12 @@
                 <div class="student-picture">
                     <div class="square green-square"></div>
                     <div class="square grey-square"></div>
-                    <img src="./images/girl.png" alt="A student">
+                    <picture>
+                        <source srcset="./images/girl.webp" type="image/webp">
+                        <source srcset="./images/girl.png" type="image/png"> 
+                        <img src="./images/girl.png">
+                    </picture>
+
                 </div>
                 <div class="student-comment-container">
                     <img src="./images/quotation-mark-blue.svg" alt="">
@@ -223,21 +245,34 @@
             </div>
             <div class="sect6-articles-container">
                 <article>
-                    <img src="./images/person-with-laptop.png" alt="A person with laptop">
+                    <picture>
+                        <source srcset="./images/person-with-laptop.webp" type="image/webp">
+                        <source srcset="./images/person-with-laptop.png" type="image/png"> 
+                        <img src="./images/person-with-laptop.png">
+                    </picture>
                     <p class="date" data-i18n="blog_date">December 2,2020</p>
                     <h3 data-i18n="blog_1_title">Fostering a Culture of Lifelong Learning</h3>
                     <p data-i18n="blog_1_description">Discover strategies to cultivate continuous professional growth in today’s fast-paced world.</p>
                 </article>
 
                 <article>
-                    <img src="./images/woman.png" alt="A smiley woman">
+                    <picture>
+                        <source srcset="./images/woman.webp" type="image/webp">
+                        <source srcset="./images/woman.png" type="image/png"> 
+                        <img src="./images/woman.png">
+                    </picture>
                     <p class="date" data-i18n="blog_date">December 2,2020</p>
                     <h3 data-i18n="blog_2_title">Boosting Engagement Through Social Media</h3>
                     <p data-i18n="blog_2_description">Learn how platforms like Instagram can revolutionize your online learning experience.</p>
                 </article>
 
                 <article>
-                    <img src="./images/couch.png" alt="A couch">
+                    <picture>
+                        <source srcset="./images/couch.webp" type="image/webp">
+                        <source srcset="./images/couch.png" type="image/png"> 
+                        <img src="./images/couch.png">
+                    </picture>
+
                     <p class="date" data-i18n="blog_date">December 2,2020</p>
                     <h3 data-i18n="blog_3_title">The Future of Remote Work and Education</h3>
                     <p data-i18n="blog_3_description">Explore how remote trends are shaping the workplace and redefining education opportunities.</p>
