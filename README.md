@@ -100,10 +100,10 @@ To customize the appearance of the website, you can modify the `styles/style.css
 - [x] Improve mobile responsiveness for smaller screens
 - [x] Add animations to buttons and sections for a smoother user experience
 - [ ] Optimize images for faster loading
-- [ ] Multi-language Support
+- [x] Multi-language Support
     - [x] Ukrainian
-    - [ ] French
-    - [ ] German
+    - [x] French
+    - [x] German
 
 See the [open issues](https://github.com/OleksandrZadvornyi/educate-landing/issues) for a full list of proposed features (and known issues).
 
