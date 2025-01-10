@@ -1,3 +1,10 @@
+import en from "../db/en.json";
+import fr from "../db/fr.json";
+import uk from "../db/uk.json";
+import de from "../db/de.json";
+
+const translations = { en, fr, uk, de };
+
 const languageButton = document.querySelector(".current-language");
 const dropdown = document.querySelector(".language-dropdown");
 const currentFlag = document.getElementById("current-flag");
@@ -7,22 +14,28 @@ function setLanguagePreference(language) {
 }
 
 function getLanguagePreference() {
+  if (localStorage.getItem("preferredLanguage") == null) {
+    return "en";
+  }
   return localStorage.getItem("preferredLanguage");
 }
 
 function updateLanguageSelector(language) {
   const currentFlag = document.getElementById("current-flag");
-  currentFlag.src = `./images/flags/${language}.png`; // Update the flag icon
+  currentFlag.src = `./src/images/flags/${language}.png`; // Update the flag icon
 }
 
 async function loadTranslations(lang) {
   try {
-    const response = await fetch(`../db/${lang}.json`);
-    const translations = await response.json();
+    const translationData = translations[lang];
+    
+    if (!translationData) {
+      throw new Error(`Translations for language "${lang}" not found`);
+    }
 
     document.querySelectorAll("[data-i18n]").forEach((el) => {
       const key = el.getAttribute("data-i18n");
-      el.innerHTML = translations[key];
+      el.innerHTML = translationData[key] || el.innerHTML;
     });
   } catch (error) {
     console.error("Error loading translations:", error);
@@ -68,5 +81,6 @@ document.addEventListener("click", (event) => {
 window.addEventListener("DOMContentLoaded", () => {
   const preferredLanguage = getLanguagePreference();
   loadTranslations(preferredLanguage);
-  updateLanguageSelector(preferredLanguage);
+  if (preferredLanguage !== "en")
+    updateLanguageSelector(preferredLanguage);
 });

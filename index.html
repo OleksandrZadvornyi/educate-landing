@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./src/styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Inter&family=Kumbh+Sans:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&display=swap"
         rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="./images/logo.svg">
+    <link rel="icon" type="image/x-icon" href="./src/images/logo.svg">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
@@ -25,7 +25,7 @@
     <header>
         <div class="header-container">
             <div class="logo-cn">
-                <img src="./images/logo.svg" alt="Logo">
+                <img src="./src/images/logo.svg" alt="Logo">
                 <h3>Educate</h3>
             </div>
 
@@ -40,7 +40,7 @@
             </nav>
 
             <div class="header-btns">
-                <img src="./images/login-icon.png" alt="Login Icon">
+                <img src="./src/images/login-icon.png" alt="Login Icon">
                 <button class="btn-log" data-i18n="log_in">Log in</button>
                 <button class="btn-reg" data-i18n="registration">Registration</button>
                 <input id="menu__toggle" type="checkbox" />
@@ -52,20 +52,20 @@
 
                 <div class="language-selector">
                     <button class="current-language">
-                        <img src="./images/flags/en.png" alt="English" id="current-flag">
+                        <img src="./src/images/flags/en.png" alt="English" id="current-flag">
                     </button>
                     <ul class="language-dropdown">
                         <li data-lang="en">
-                            <img src="./images/flags/en.png" alt="English"> English
+                            <img src="./src/images/flags/en.png" alt="English"> English
                         </li>
                         <li data-lang="uk">
-                            <img src="./images/flags/uk.png" alt="Українська"> Українська
+                            <img src="./src/images/flags/uk.png" alt="Українська"> Українська
                         </li>
                         <li data-lang="de">
-                            <img src="./images/flags/de.png" alt="Deutsch"> Deutsch
+                            <img src="./src/images/flags/de.png" alt="Deutsch"> Deutsch
                         </li>
                         <li data-lang="fr">
-                            <img src="./images/flags/fr.png" alt="Français"> Français
+                            <img src="./src/images/flags/fr.png" alt="Français"> Français
                         </li>
                     </ul>
                 </div>
@@ -78,7 +78,7 @@
             <h1 data-i18n="hero_title">Get The Best Online Learning Service</h1>
             <p data-i18n="hero_text">Access high-quality online education with courses designed to help you succeed. Our platform offers a variety of flexible learning options to meet your needs, making education accessible anytime, anywhere.</p>
             <button class="button" data-i18n="start_course">Start Course</button>
-            <video src="videos/video.mp4" poster="./images/placeholder.webp" controls></video>
+            <video src="./src/videos/video.mp4" poster="./src/images/placeholder.webp" controls></video>
 
             <!-- Green flower at the bottom left of the first section -->
             <div class="flower-container flower-no-reverse">
@@ -101,15 +101,15 @@
             <div class="sect2-articles-container">
                 <article>
                     <picture>
-                        <source srcset="./images/software-course.webp" type="image/webp">
-                        <source srcset="./images/software-course.png" type="image/png"> 
-                        <img src="./images/software-course.png" loading="lazy">
+                        <source srcset="./src/images/software-course.webp" type="image/webp">
+                        <source srcset="./src/images/software-course.png" type="image/png"> 
+                        <img src="./src/images/software-course.png" loading="lazy">
                     </picture>
                     <div>
                         <h3 data-i18n="course_1_title">Native Mac Apps in Swift</h3>
                         <p data-i18n="course_1_description">Take your dev skills to the next level with this ground-up tutorial on native Mac apps</p>
                         <div class="sect2-articles-buttons">
-                            <button class="btn-author"><img src="./images/teacher.jpg" alt="Author Annabelle Portrar" loading="lazy">
+                            <button class="btn-author"><img src="./src/images/teacher.jpg" alt="Author Annabelle Portrar" loading="lazy">
                                 by
                                 Annabelle Portrar</button>
                             <button class="btn-lesson" data-i18n="lessons_number"><svg xmlns="http://www.w3.org/2000/svg" width="20px"
@@ -123,15 +123,15 @@
 
                 <article>
                     <picture>
-                        <source srcset="./images/design-course.webp" type="image/webp">
-                        <source srcset="./images/design-course.png" type="image/png"> 
-                        <img src="./images/design-course.png" loading="lazy">
+                        <source srcset="./src/images/design-course.webp" type="image/webp">
+                        <source srcset="./src/images/design-course.png" type="image/png"> 
+                        <img src="./src/images/design-course.png" loading="lazy">
                     </picture>
 
                     <h3 data-i18n="course_2_title">Fundamentals of Interior Design</h3>
                     <p data-i18n="course_2_description">The beginner's guide to designing and renovating stunning interiors</p>
                     <div class="sect2-articles-buttons">
-                        <button class="btn-author"><img src="./images/teacher.jpg" alt="Author Annabelle Portrar" loading="lazy">by
+                        <button class="btn-author"><img src="./src/images/teacher.jpg" alt="Author Annabelle Portrar" loading="lazy">by
                             Annabelle Portrar</button>
                         <button class="btn-lesson" data-i18n="lessons_number"><svg xmlns="http://www.w3.org/2000/svg" width="20px"
                                 viewBox="0 0 384 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
@@ -152,7 +152,7 @@
                     </div>
                     <p data-i18n="how_it_works_step_1">Browse course from our expert contributtor</p>
                 </div>
-                <img src="./images/dash-line1.png" alt="Dash line" loading="lazy">
+                <img src="./src/images/dash-line1.png" alt="Dash line" loading="lazy">
 
                 <div class="step">
                     <div class="circle">
@@ -161,7 +161,7 @@
                     <p data-i18n="how_it_works_step_2">Purchase quickly and securely</p>
                 </div>
 
-                <img src="./images/dash-line2.png" alt="Dash line" loading="lazy">
+                <img src="./src/images/dash-line2.png" alt="Dash line" loading="lazy">
                 <div class="step">
                     <div class="circle">
                         <p>3</p>
@@ -178,10 +178,10 @@
                 <h2 data-i18n="why_take_course_title">Why Should You take our course</h2>
                 <p data-i18n="why_take_course_description">Educate offers an innovative approach to online learning, empowering you to achieve your goals with world-class resources and expert guidance.</p>
                 <dl>
-                    <dt data-i18n="why_take_course_world_class"><img src="./images/double-checkmark.svg" alt="Double checkmark" loading="lazy">World-Class Education</dt>
+                    <dt data-i18n="why_take_course_world_class"><img src="./src/images/double-checkmark.svg" alt="Double checkmark" loading="lazy">World-Class Education</dt>
                     <dd data-i18n="why_take_course_world_class_description">Learn from industry-leading experts and gain skills that set you apart in your career.</dd>
 
-                    <dt data-i18n="why_take_course_affordable"><img src="./images/double-checkmark.svg" alt="Double checkmark" loading="lazy">Affordable Learning</dt>
+                    <dt data-i18n="why_take_course_affordable"><img src="./src/images/double-checkmark.svg" alt="Double checkmark" loading="lazy">Affordable Learning</dt>
                     <dd data-i18n="why_take_course_affordable_description">Access high-quality education at prices that fit your budget, making learning accessible to everyone.</dd>
                 </dl>
 
@@ -190,16 +190,16 @@
             <div class="sect-4-images-container">
                 <div class="sect-4-two-images">
                     <picture class="girl-image">
-                        <source srcset="./images/girl-with-books.webp" type="image/webp">
-                        <source srcset="./images/girl-with-books.png" type="image/png"> 
-                        <img src="./images/girl-with-books.png" loading="lazy">
+                        <source srcset="./src/images/girl-with-books.webp" type="image/webp">
+                        <source srcset="./src/images/girl-with-books.png" type="image/png"> 
+                        <img src="./src/images/girl-with-books.png" loading="lazy">
                     </picture>
-                    <img src="./images/quotation-mark-green.svg" alt="Quotation mark" loading="lazy">
+                    <img src="./src/images/quotation-mark-green.svg" alt="Quotation mark" loading="lazy">
                 </div>
                 <picture class="boy-image">
-                    <source srcset="./images/guy-thumbs-up.webp" type="image/webp">
-                    <source srcset="./images/guy-thumbs-up.png" type="image/png"> 
-                    <img src="./images/guy-thumbs-up.png" loading="lazy">
+                    <source srcset="./src/images/guy-thumbs-up.webp" type="image/webp">
+                    <source srcset="./src/images/guy-thumbs-up.png" type="image/png"> 
+                    <img src="./src/images/guy-thumbs-up.png" loading="lazy">
                 </picture>
             </div>
         </section>
@@ -211,21 +211,21 @@
                     <div class="square green-square"></div>
                     <div class="square grey-square"></div>
                     <picture>
-                        <source srcset="./images/girl.webp" type="image/webp">
-                        <source srcset="./images/girl.png" type="image/png"> 
-                        <img src="./images/girl.png" loading="lazy">
+                        <source srcset="./src/images/girl.webp" type="image/webp">
+                        <source srcset="./src/images/girl.png" type="image/png"> 
+                        <img src="./src/images/girl.png" loading="lazy">
                     </picture>
 
                 </div>
                 <div class="student-comment-container">
-                    <img src="./images/quotation-mark-blue.svg" alt="" loading="lazy">
+                    <img src="./src/images/quotation-mark-blue.svg" alt="" loading="lazy">
                     <p data-i18n="testimonial_quote">Educate has completely transformed how I learn. The courses are engaging, the platform is intuitive, and I feel more confident in my skills every day!</p>
                     <div class="stars-container">
-                        <img src="./images/star.svg" alt="A golden star" loading="lazy">
-                        <img src="./images/star.svg" alt="A golden star" loading="lazy">
-                        <img src="./images/star.svg" alt="A golden star" loading="lazy">
-                        <img src="./images/star.svg" alt="A golden star" loading="lazy">
-                        <img src="./images/star.svg" alt="A golden star" loading="lazy">
+                        <img src="./src/images/star.svg" alt="A golden star" loading="lazy">
+                        <img src="./src/images/star.svg" alt="A golden star" loading="lazy">
+                        <img src="./src/images/star.svg" alt="A golden star" loading="lazy">
+                        <img src="./src/images/star.svg" alt="A golden star" loading="lazy">
+                        <img src="./src/images/star.svg" alt="A golden star" loading="lazy">
                     </div>
                     <h3 data-i18n="testimonial_name">Dianne Russel</h3>
                     <p data-i18n="testimonial_country">Poland</p>
@@ -246,9 +246,9 @@
             <div class="sect6-articles-container">
                 <article>
                     <picture>
-                        <source srcset="./images/person-with-laptop.webp" type="image/webp">
-                        <source srcset="./images/person-with-laptop.png" type="image/png"> 
-                        <img src="./images/person-with-laptop.png" loading="lazy">
+                        <source srcset="./src/images/person-with-laptop.webp" type="image/webp">
+                        <source srcset="./src/images/person-with-laptop.png" type="image/png"> 
+                        <img src="./src/images/person-with-laptop.png" loading="lazy">
                     </picture>
                     <p class="date" data-i18n="blog_date">December 2,2020</p>
                     <h3 data-i18n="blog_1_title">Fostering a Culture of Lifelong Learning</h3>
@@ -257,9 +257,9 @@
 
                 <article>
                     <picture>
-                        <source srcset="./images/woman.webp" type="image/webp">
-                        <source srcset="./images/woman.png" type="image/png"> 
-                        <img src="./images/woman.png" loading="lazy">
+                        <source srcset="./src/images/woman.webp" type="image/webp">
+                        <source srcset="./src/images/woman.png" type="image/png"> 
+                        <img src="./src/images/woman.png" loading="lazy">
                     </picture>
                     <p class="date" data-i18n="blog_date">December 2,2020</p>
                     <h3 data-i18n="blog_2_title">Boosting Engagement Through Social Media</h3>
@@ -268,9 +268,9 @@
 
                 <article>
                     <picture>
-                        <source srcset="./images/couch.webp" type="image/webp">
-                        <source srcset="./images/couch.png" type="image/png"> 
-                        <img src="./images/couch.png" loading="lazy">
+                        <source srcset="./src/images/couch.webp" type="image/webp">
+                        <source srcset="./src/images/couch.png" type="image/png"> 
+                        <img src="./src/images/couch.png" loading="lazy">
                     </picture>
 
                     <p class="date" data-i18n="blog_date">December 2,2020</p>
@@ -357,8 +357,8 @@
         </section>
     </footer>
 
-    <script src="./js/burger.js"></script>
-    <script src="./js/lang-selector.js"></script>
+    <script type="module" src="./src/js/burger.js"></script>
+    <script type="module" src="./src/js/lang-selector.js"></script>
 </body>
 
 </html>
