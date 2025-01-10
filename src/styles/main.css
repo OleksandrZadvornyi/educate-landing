@@ -525,7 +525,7 @@ h1 {
     inset: 30% 3% 32px 8%;
 }
 
-.student-picture>img {
+.student-picture img {
     position: absolute;
     bottom: 32px;
     left: 24px;
@@ -658,7 +658,7 @@ input[type="radio"]:checked {
     margin-top: 52px;
 }
 
-.sect6-articles-container>article>img {
+.sect6-articles-container>article img {
     width: 100%;
 }
 
