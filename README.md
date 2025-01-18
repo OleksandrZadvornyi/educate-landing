@@ -8,11 +8,12 @@
 </p>
 
 
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/OleksandrZadvornyi/educate-landing">
-    <img src="images/logo.svg" alt="Logo" width="80" height="80">
+    <img src="./src/images/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Educate</h3>
@@ -44,18 +45,21 @@
   <br/><br/>
 </div>
 
-Educate is a one-page website built using the [template](https://www.figma.com/file/2XQ41agCVi0L19VN0S8Sza/E-learnWebsite?type=design&node-id=0-1&t=pjOaXp9OyRuNHcz5-0) from [Figma](https://www.figma.com/). The topic of the website is online education. This website isn't mobile responsive.
+Educate is a one-page website built using the [template](https://www.figma.com/file/2XQ41agCVi0L19VN0S8Sza/E-learnWebsite?type=design&node-id=0-1&t=pjOaXp9OyRuNHcz5-0) from [Figma](https://www.figma.com/). This project uses [Vite](https://vitejs.dev/) for fast development and optimized production builds.
 <br><br>
+
 
 ### Deployment
 
 The website is deployed using [Netlify](https://www.netlify.com/). You can see it [here](https://e-learn-website.netlify.app/).
 <br><br>
 
+
 ### Built With
 
-This project does not use any libraries or frameworks. Only pure HTML and CSS are used.
+This project is built using Vite for faster development and optimized production builds. The core technologies are:
 
+* [![Vite][VITE]][VITE-url]
 * [![HTML][HTML]][HTML-url]
 * [![CSS][CSS]][CSS-url]
 * [![JS][JS]][JS-url]
@@ -66,9 +70,12 @@ This project does not use any libraries or frameworks. Only pure HTML and CSS ar
 <!-- GETTING STARTED -->
 ## Getting Started
 
+
 ### Prerequisites
 
 Ensure you have a modern web browser to view the website (e.g., Google Chrome, Firefox, Safari, etc.).
+<br><br>
+
 
 ### Cloning the Repository
 
@@ -77,20 +84,40 @@ To get a local copy of this project, run the following command:
 ```bash
 git clone https://github.com/OleksandrZadvornyi/educate-landing.git
 ```
+<br>
+
 
 ### Viewing the Project
 
-Navigate into the project directory and open the index.html file in your browser:
+To run the project locally with Vite:
 
-```bash
-cd educate-landing
-open index.html  # or double-click on the file in your file explorer
-```
+1. Install the dependencies:
+   
+   ```bash
+   npm install
+   ```
 
-### Customize the Styles (Optional)
+2. Start the development server:
 
-To customize the appearance of the website, you can modify the `styles/style.css` file.
+   ```bash
+   npm run dev
+   ```
 
+3. Open your browser and navigate to the URL provided by Vite (e.g., http://localhost:5173).
+<br><br>
+
+
+### Building the Project
+
+To build the project for production:
+
+1. Run the build command:
+   ```bash
+   npm run build
+   ```
+
+2. The optimized output will be available in the dist directory.
+<br><br>
 
 
 <!-- ROADMAP -->
@@ -99,13 +126,15 @@ To customize the appearance of the website, you can modify the `styles/style.css
 - [x] Create a landing page with HTML and CSS
 - [x] Improve mobile responsiveness for smaller screens
 - [x] Add animations to buttons and sections for a smoother user experience
-- [ ] Optimize images for faster loading
+- [x] Optimize images for faster loading
 - [x] Multi-language Support
     - [x] Ukrainian
     - [x] French
     - [x] German
 
 See the [open issues](https://github.com/OleksandrZadvornyi/educate-landing/issues) for a full list of proposed features (and known issues).
+<br><br>
+
 
 
 <!-- CONTRIBUTING -->
@@ -119,11 +148,14 @@ If you have suggestions for improvements, feel free to fork the repository and c
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+
 ### Contributors:
 
 <a href="https://github.com/OleksandrZadvornyi/educate-landing/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=OleksandrZadvornyi/educate-landing" alt="contrib.rocks image" />
 </a>
+<br><br>
+
 
 
 <!-- LICENCE -->
@@ -152,3 +184,5 @@ Project Link: [https://github.com/OleksandrZadvornyi/educate-landing](https://gi
 [CSS-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
 [JS]: https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white
 [JS-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[VITE]: https://img.shields.io/badge/Vite-purple?style=for-the-badge&logo=vite&logoColor=white
+[VITE-url]: https://vitejs.dev/
