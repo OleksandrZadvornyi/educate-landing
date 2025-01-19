@@ -22,7 +22,7 @@ function getLanguagePreference() {
 
 function updateLanguageSelector(language) {
   const currentFlag = document.getElementById("current-flag");
-  currentFlag.src = `./src/images/flags/${language}.png`; // Update the flag icon
+  currentFlag.src = `https://raw.githubusercontent.com/OleksandrZadvornyi/educate-landing/refs/heads/main/src/images/flags/${language}.png`; // Update the flag icon
 }
 
 async function loadTranslations(lang) {
