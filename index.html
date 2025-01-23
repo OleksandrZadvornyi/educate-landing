@@ -206,37 +206,87 @@
 
         <section class="sect-5">
             <h2 data-i18n="testimonials_title">What Our Students Say</h2>
-            <div>
-                <div class="student-picture">
-                    <div class="square green-square"></div>
-                    <div class="square grey-square"></div>
-                    <picture>
-                        <source srcset="./src/images/girl.webp" type="image/webp">
-                        <source srcset="./src/images/girl.png" type="image/png"> 
-                        <img src="./src/images/girl.png" loading="lazy" alt="Student Dianne Russel">
-                    </picture>
-
-                </div>
-                <div class="student-comment-container">
-                    <img src="./src/images/quotation-mark-blue.svg" alt="" loading="lazy">
-                    <p data-i18n="testimonial_quote">Educate has completely transformed how I learn. The courses are engaging, the platform is intuitive, and I feel more confident in my skills every day!</p>
-                    <div class="stars-container">
-                        <img src="./src/images/star.svg" alt="A golden star" loading="lazy">
-                        <img src="./src/images/star.svg" alt="A golden star" loading="lazy">
-                        <img src="./src/images/star.svg" alt="A golden star" loading="lazy">
-                        <img src="./src/images/star.svg" alt="A golden star" loading="lazy">
-                        <img src="./src/images/star.svg" alt="A golden star" loading="lazy">
+            <div class="carousel">
+                <div class="review" id="review1">
+                    <div class="student-picture">
+                        <div class="square green-square"></div>
+                        <div class="square grey-square"></div>
+                        <picture>
+                            <source srcset="./src/images/girl.webp" type="image/webp">
+                            <source srcset="./src/images/girl.png" type="image/png">
+                            <img src="./src/images/girl.webp" loading="lazy" alt="Student Dianne Russel">
+                        </picture>
                     </div>
-                    <h3 data-i18n="testimonial_name">Dianne Russel</h3>
-                    <p data-i18n="testimonial_country">Poland</p>
-                    <div class="radio-buttons">
-                        <input type="radio" name="student" aria-label="Student Dave Smith">
-                        <input type="radio" name="student" aria-label="Student Dianne Russel" checked>
-                        <input type="radio" name="student" aria-label="Student John Doe">
+                    <div class="student-comment-container">
+                        <img src="./src/images/quotation-mark-blue.svg" alt="" loading="lazy">
+                        <p data-i18n="testimonial_quote_1">Educate has completely transformed how I learn. The courses are engaging, the platform is intuitive, and I feel more confident in my skills every day!</p>
+                        <div class="stars-container">
+                            <img src="./src/images/star.svg" alt="A golden star" loading="lazy">
+                            <img src="./src/images/star.svg" alt="A golden star" loading="lazy">
+                            <img src="./src/images/star.svg" alt="A golden star" loading="lazy">
+                            <img src="./src/images/star.svg" alt="A golden star" loading="lazy">
+                            <img src="./src/images/star.svg" alt="A golden star" loading="lazy">
+                        </div>
+                        <h3 data-i18n="testimonial_name_1">Dianne Russel</h3>
+                        <p data-i18n="testimonial_country_1">Poland</p>
+                    </div>
+                </div>
+                <div class="review" id="review2">
+                    <div class="student-picture">
+                        <div class="square green-square"></div>
+                        <div class="square grey-square"></div>
+                        <picture>
+                            <source srcset="./src/images/boy.webp" type="image/webp">
+                            <source srcset="./src/images/boy.png" type="image/png">
+                            <img src="./src/images/boy.png" loading="lazy" alt="Student Dave Smith">
+                        </picture>
+                    </div>
+                    <div class="student-comment-container">
+                        <img src="./src/images/quotation-mark-blue.svg" alt="" loading="lazy">
+                        <p data-i18n="testimonial_quote_2">Thanks to Educate, I aced my exams and improved my confidence in every subject!</p>
+                        <div class="stars-container">
+                            <img src="./src/images/star.svg" alt="A golden star" loading="lazy">
+                            <img src="./src/images/star.svg" alt="A golden star" loading="lazy">
+                            <img src="./src/images/star.svg" alt="A golden star" loading="lazy">
+                            <img src="./src/images/star.svg" alt="A golden star" loading="lazy">
+                            <img src="./src/images/star.svg" alt="A golden star" loading="lazy">
+                        </div>
+                        <h3 data-i18n="testimonial_name_2">Dave Smith</h3>
+                        <p data-i18n="testimonial_country_2">USA</p>
+                    </div>
+                </div>
+                <div class="review" id="review3">
+                    <div class="student-picture">
+                        <div class="square green-square"></div>
+                        <div class="square grey-square"></div>
+                        <picture>
+                            <source srcset="./src/images/john.png" type="image/png">
+                            <source srcset="./src/images/john.webp" type="image/webp">
+                            <img src="./src/images/john.png" loading="lazy" alt="Student John Doe" style="width: 90%;">
+                        </picture>
+                    </div>
+                    <div class="student-comment-container">
+                        <img src="./src/images/quotation-mark-blue.svg" alt="" loading="lazy">
+                        <p data-i18n="testimonial_quote_3">Educate made learning enjoyable and effective. I feel ready to take on new challenges!</p>
+                        <div class="stars-container">
+                            <img src="./src/images/star.svg" alt="A golden star" loading="lazy">
+                            <img src="./src/images/star.svg" alt="A golden star" loading="lazy">
+                            <img src="./src/images/star.svg" alt="A golden star" loading="lazy">
+                            <img src="./src/images/star.svg" alt="A golden star" loading="lazy">
+                            <img src="./src/images/star.svg" alt="A golden star" loading="lazy">
+                        </div>
+                        <h3 data-i18n="testimonial_name_3">John Doe</h3>
+                        <p data-i18n="testimonial_country_3">Canada</p>
                     </div>
                 </div>
             </div>
+            <div class="radio-buttons">
+                <input type="radio" name="student" id="radio1" aria-label="Student Dianne Russel" checked>
+                <input type="radio" name="student" id="radio2" aria-label="Student Dave Smith">
+                <input type="radio" name="student" id="radio3" aria-label="Student John Doe">
+            </div>
         </section>
+
 
         <section class="sect-6">
             <div class="sect6-head-container">
@@ -359,6 +409,7 @@
 
     <script type="module" src="./src/js/burger.js"></script>
     <script type="module" src="./src/js/lang-selector.js"></script>
+    <script type="module" src="./src/js/review-carousel.js"></script>
 </body>
 
 </html>

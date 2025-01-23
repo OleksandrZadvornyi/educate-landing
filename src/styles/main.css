@@ -484,7 +484,6 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 0 3vw;
 }
 
 .sect-5>h2 {
@@ -496,12 +495,21 @@ h1 {
     color: #1F3E72;
 }
 
-.sect-5>div {
-    padding: 40px 6vw 90px;
+.carousel {
     display: flex;
-    justify-content: center;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+    width: 100%;
+}
+
+.review {
+    min-width: 100%;
+    display: flex;
     align-items: center;
-    gap: 56px;
+    justify-content: center;
+    gap: 6rem;
+    padding: 4rem 5rem;
+    
 }
 
 .student-picture {
@@ -581,11 +589,11 @@ input[type="radio"]:checked {
 }
 
 .radio-buttons {
-    margin: 32px 0 0 0;
+    margin: 1rem 0 3.2rem;
 }
 
 @media screen and (max-width: 944px) {
-    .sect-5>div {
+    .review {
         flex-direction: column;
         gap: 40px;
     }
