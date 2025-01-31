@@ -66,5 +66,7 @@
   "community_newsletters": "Newsletters",
   "subscribe_newsletter_title": "Stay Updated",
   "subscribe_newsletter_text": "Subscribe to our newsletter for the latest insights, tips, and updates delivered directly to your inbox.",
-  "enter_email": "Enter your mail"
+  
+  "emailPlaceholder": "Email Address",
+  "enterEmailPlaceholder": "Enter your mail"
 }

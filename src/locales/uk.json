@@ -66,5 +66,7 @@
   "community_newsletters": "Розсилки",
   "subscribe_newsletter_title": "Будьте в курсі",
   "subscribe_newsletter_text": "Підпишіться на нашу розсилку, щоб отримувати останні інсайти, поради та оновлення прямо у вашу поштову скриньку.",
-  "enter_email": "Введіть вашу електронну адресу"
+
+  "emailPlaceholder": "Електронна пошта",
+  "enterEmailPlaceholder": "Введіть вашу пошту"
 }

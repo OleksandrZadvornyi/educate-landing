@@ -66,5 +66,7 @@
   "community_newsletters": "Newsletter",
   "subscribe_newsletter_title": "Bleiben Sie informiert",
   "subscribe_newsletter_text": "Abonnieren Sie unseren Newsletter, um die neuesten Einblicke, Tipps und Updates direkt in Ihren Posteingang zu erhalten.",
-  "enter_email": "E-Mail-Adresse eingeben"
+
+  "emailPlaceholder": "E-Mail-Adresse",
+  "enterEmailPlaceholder": "Geben Sie Ihre E-Mail ein"
 }

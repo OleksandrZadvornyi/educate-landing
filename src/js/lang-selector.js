@@ -37,6 +37,14 @@ async function loadTranslations(lang) {
       const key = el.getAttribute("data-i18n");
       el.innerHTML = translationData[key] || el.innerHTML;
     });
+
+    // Update placeholders
+    document.querySelectorAll("[data-i18n-placeholder]").forEach((el) => {
+      const key = el.getAttribute("data-i18n-placeholder");
+      if (translationData[key]) {
+        el.setAttribute("placeholder", translationData[key]);
+      }
+    });
   } catch (error) {
     console.error("Error loading translations:", error);
   }

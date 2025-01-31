@@ -66,5 +66,7 @@
   "community_newsletters": "Bulletins",
   "subscribe_newsletter_title": "Restez à jour",
   "subscribe_newsletter_text": "Abonnez-vous à notre newsletter pour recevoir les derniers aperçus, conseils et mises à jour directement dans votre boîte de réception.",
-  "enter_email": "Entrez votre e-mail"
+
+  "emailPlaceholder": "Adresse e-mail",
+  "enterEmailPlaceholder": "Entrez votre e-mail"
 }
